@@ -3,6 +3,7 @@
 import argparse
 import ast
 import csv
+import re
 import shutil
 import statistics
 import subprocess
@@ -31,11 +32,29 @@ def find_accuracy_array(log_text, label, expected_rounds):
         if len(values) == expected_rounds:
             arrays.append(values)
 
-    if not arrays:
-        raise RuntimeError(
-            f'Cannot find a {label} Accuracy array with {expected_rounds} rounds in the log.'
-        )
-    return arrays[0]
+    if arrays:
+        return arrays[0]
+
+    # Some logger configurations omit DEBUG summary lines. In that case,
+    # recover the same training curve from the per-round INFO messages.
+    training_text = re.split(
+        r'_+Begin Recover(?: Group \d+)?_+', log_text, maxsplit=1
+    )[0]
+    if label == 'Main':
+        pattern = r'(?:Testing|testing) accuracy:\s*([0-9]+(?:\.[0-9]+)?)%'
+    elif label == 'Attacker':
+        pattern = r'(?:Attack|attack) accuracy:\s*([0-9]+(?:\.[0-9]+)?)%'
+    else:
+        raise ValueError(f'Unsupported accuracy label: {label}')
+
+    values = [float(value) for value in re.findall(pattern, training_text)]
+    if len(values) >= expected_rounds:
+        return values[:expected_rounds]
+
+    raise RuntimeError(
+        f'Cannot find {expected_rounds} training values for {label} Accuracy. '
+        f'Found {len(values)} per-round values and no matching summary array.'
+    )
 
 
 def write_per_run_csv(path, main_accuracies, attack_accuracies):
@@ -117,12 +136,17 @@ def main():
         saved_log = result_dir / f'run_{run_index}.log'
         shutil.copy2(source_log, saved_log)
         log_text = saved_log.read_text(encoding='utf-8')
-        main_accuracies.append(
-            find_accuracy_array(log_text, 'Main', expected_rounds)
-        )
-        attack_accuracies.append(
-            find_accuracy_array(log_text, 'Attacker', expected_rounds)
-        )
+        console_text = console_log.read_text(encoding='utf-8')
+        try:
+            main_values = find_accuracy_array(log_text, 'Main', expected_rounds)
+            attack_values = find_accuracy_array(log_text, 'Attacker', expected_rounds)
+        except RuntimeError:
+            # Fall back to captured console output if the file logger format differs.
+            main_values = find_accuracy_array(console_text, 'Main', expected_rounds)
+            attack_values = find_accuracy_array(console_text, 'Attacker', expected_rounds)
+
+        main_accuracies.append(main_values)
+        attack_accuracies.append(attack_values)
         print(f'[{run_index}/{args.runs}] Saved {saved_log.name}', flush=True)
 
     write_per_run_csv(
