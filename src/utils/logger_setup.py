@@ -17,6 +17,20 @@ def setup_logger(log_file=None, name='main_logger'):
     if logger.handlers:
         return logger
 
+    # Configure the root logger before creating handlers. dictConfig closes
+    # existing handlers, so calling it after FileHandler creation leaves the
+    # file handler attached but unable to write.
+    log_config = {
+        'version': 1,
+        'disable_existing_loggers': False,
+        'root': {
+            'handlers': [],
+            'level': 'CRITICAL',
+            'propagate': False
+        }
+    }
+    logging.config.dictConfig(log_config)
+
     # create file handler
     file_handler = logging.FileHandler(log_file, encoding='utf-8', mode='w')
     file_handler.setLevel(logging.DEBUG)
@@ -36,19 +50,5 @@ def setup_logger(log_file=None, name='main_logger'):
     # add handler
     logger.addHandler(file_handler)
     logger.addHandler(console_handler)
-
-    # 禁用 root logger
-    log_config = {
-        'version': 1,
-        'disable_existing_loggers': False,
-        'root': {
-            'handlers': [],  # 不设置任何handlers
-            'level': 'CRITICAL',  # 设置日志级别为CRITICAL，也可以设置为'NOTSET'来完全禁用
-            'propagate': False  # 防止日志消息传递到上级logger
-        }
-    }
-
-    # 应用日志配置
-    logging.config.dictConfig(log_config)
 
     return logger
