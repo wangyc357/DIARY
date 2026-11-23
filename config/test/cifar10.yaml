@@ -2,11 +2,13 @@ seed: 41
 
 # Federated arguments
 FL:
-  name: FedAvg
+  name: GroupedFedAvg
   rounds: 100
   recover_rounds: 60
   recover_steps: 2
   num_clients: 10
+  # Number of isolated DIARY groups. Set to 1 to use one group.
+  num_groups: 2
   client_rate: 1.0
   aggregator: averaged_weights
   dataset: cifar10
