@@ -1,4 +1,4 @@
-"""Run the MNIST part of Figure 4 repeatedly and average training metrics."""
+"""Run the MNIST or Fashion-MNIST part of Figure 4 repeatedly."""
 
 import argparse
 import ast
@@ -103,8 +103,11 @@ def main():
 
     fl_config = config['FL']
     dataset = fl_config['dataset']
-    if dataset != 'mnist':
-        raise ValueError(f'This script is for MNIST, but the config uses {dataset!r}.')
+    if dataset not in {'mnist', 'fmnist'}:
+        raise ValueError(
+            'This script supports MNIST and Fashion-MNIST, '
+            f'but the config uses {dataset!r}.'
+        )
 
     expected_rounds = fl_config['rounds']
     method = 'find' if fl_config['with_defense'] else 'dpfl'
@@ -112,14 +115,17 @@ def main():
     source_log = project_root / 'logs' / dataset / f'{recover_name}.log'
 
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-    result_dir = (project_root / args.output_dir / f'mnist_{method}_{timestamp}').resolve()
+    result_dir = (project_root / args.output_dir / f'{dataset}_{method}_{timestamp}').resolve()
     result_dir.mkdir(parents=True, exist_ok=False)
 
     main_accuracies = []
     attack_accuracies = []
 
     for run_index in range(1, args.runs + 1):
-        print(f'[{run_index}/{args.runs}] Running MNIST-{method.upper()}...', flush=True)
+        print(
+            f'[{run_index}/{args.runs}] Running {dataset.upper()}-{method.upper()}...',
+            flush=True,
+        )
         console_log = result_dir / f'run_{run_index}_console.log'
         with console_log.open('w', encoding='utf-8') as console_stream:
             subprocess.run(
