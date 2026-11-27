@@ -1,0 +1,364 @@
+11-24 05:02:52 - INFO - Total budgets for clients: [8.0, 8.0, 8.0, 12.0, 12.0, 12.0, 12.0, 16.0, 16.0, 16.0]
+11-24 05:05:35 - INFO - The initial noise_multiplier: [57.8125, 57.8125, 57.8125, 47.8125, 47.8125, 47.8125, 47.8125, 42.03125, 42.03125, 42.03125]
+11-24 05:05:35 - INFO - ----- Group  0 Round   0 -----
+11-24 05:05:35 - INFO - group 0 selected clients:[5, 8, 2, 4, 9, 7, 1, 3, 6, 0]
+11-24 05:05:38 - INFO - group 0 remaining_budget: [11.848269631495336, 15.84861097496508, 7.847843232618794, 11.848269631495336, 15.84861097496508, 15.84861097496508, 7.847843232618794, 11.848269631495336, 11.848269631495336, 7.847843232618794]
+11-24 05:05:38 - INFO - Group 0 training average loss: 2.283
+11-24 05:05:38 - INFO - Group 0 testing accuracy: 10.00%, loss: 3.514
+11-24 05:05:39 - INFO - Group 0 attack accuracy: 90.00%
+11-24 05:05:39 - INFO - ----- Group  0 Round   1 -----
+11-24 05:05:39 - INFO - group 0 selected clients:[8, 5, 1, 0, 2, 4, 3, 7, 9, 6]
+11-24 05:05:42 - INFO - group 0 remaining_budget: [15.907531902264113, 11.907179310644164, 7.906739296814633, 7.906739296814633, 7.906739296814633, 11.907179310644164, 11.907179310644164, 15.907531902264113, 15.907531902264113, 11.907179310644164]
+11-24 05:05:42 - INFO - Group 0 training average loss: 3.014
+11-24 05:05:42 - INFO - Group 0 testing accuracy: 10.00%, loss: 3.967
+11-24 05:05:44 - INFO - Group 0 attack accuracy: 90.00%
+11-24 05:05:44 - INFO - ----- Group  0 Round   2 -----
+11-24 05:05:44 - INFO - group 0 selected clients:[3, 2, 0, 5, 4, 8, 9, 1, 7, 6]
+11-24 05:05:46 - INFO - group 0 remaining_budget: [11.93339487653057, 7.932971671331357, 7.932971671331357, 11.93339487653057, 11.93339487653057, 15.933734265340311, 15.933734265340311, 7.932971671331357, 15.933734265340311, 11.93339487653057]
+11-24 05:05:46 - INFO - Group 0 training average loss: 2.897
+11-24 05:05:47 - INFO - Group 0 testing accuracy: 47.41%, loss: 1.774
+11-24 05:05:48 - INFO - Group 0 attack accuracy: 15.30%
+11-24 05:05:48 - INFO - ----- Group  0 Round   3 -----
+11-24 05:05:48 - INFO - group 0 selected clients:[5, 4, 7, 9, 6, 3, 2, 8, 1, 0]
+11-24 05:05:51 - INFO - group 0 remaining_budget: [11.948205188513848, 11.948205188513848, 15.948529158059479, 15.948529158059479, 11.948205188513848, 11.948205188513848, 7.94780146040104, 15.948529158059479, 7.94780146040104, 7.94780146040104]
+11-24 05:05:51 - INFO - Group 0 training average loss: 1.848
+11-24 05:05:51 - INFO - Group 0 testing accuracy: 49.46%, loss: 1.553
+11-24 05:05:52 - INFO - Group 0 attack accuracy: 3.89%
+11-24 05:05:52 - INFO - ----- Group  0 Round   4 -----
+11-24 05:05:52 - INFO - group 0 selected clients:[1, 8, 5, 9, 4, 0, 7, 6, 3, 2]
+11-24 05:05:55 - INFO - group 0 remaining_budget: [7.957329412985505, 15.916049893313456, 11.957715213164715, 15.916049893313456, 11.957715213164715, 7.957329412985505, 15.916049893313456, 11.957715213164715, 11.957715213164715, 7.957329412985505]
+11-24 05:05:55 - INFO - Group 0 training average loss: 1.916
+11-24 05:05:55 - INFO - Group 0 testing accuracy: 33.45%, loss: 1.995
+11-24 05:05:57 - INFO - Group 0 attack accuracy: 72.62%
+11-24 05:05:57 - INFO - ----- Group  0 Round   5 -----
+11-24 05:05:57 - INFO - group 0 selected clients:[7, 6, 5, 3, 4, 8, 9, 1, 0, 2]
+11-24 05:05:59 - INFO - group 0 remaining_budget: [15.893893326970797, 11.928667934647567, 11.928667934647567, 11.928667934647567, 11.928667934647567, 15.893893326970797, 15.893893326970797, 7.9639639898876, 7.9639639898876, 7.9639639898876]
+11-24 05:05:59 - INFO - Group 0 training average loss: 1.852
+11-24 05:05:59 - INFO - Group 0 testing accuracy: 36.63%, loss: 2.070
+11-24 05:06:01 - INFO - Group 0 attack accuracy: 68.39%
+11-24 05:06:01 - INFO - ----- Group  0 Round   6 -----
+11-24 05:06:01 - INFO - group 0 selected clients:[5, 2, 7, 3, 8, 6, 4, 1, 0, 9]
+11-24 05:06:04 - INFO - group 0 remaining_budget: [11.876813532516811, 7.9376945843534745, 15.81693671462793, 11.876813532516811, 15.81693671462793, 11.876813532516811, 11.876813532516811, 7.9376945843534745, 7.9376945843534745, 15.81693671462793]
+11-24 05:06:04 - INFO - Group 0 training average loss: 1.708
+11-24 05:06:04 - INFO - Group 0 testing accuracy: 64.73%, loss: 1.029
+11-24 05:06:05 - INFO - Group 0 attack accuracy: 10.10%
+11-24 05:06:06 - INFO - ----- Group  0 Round   7 -----
+11-24 05:06:06 - INFO - group 0 selected clients:[3, 5, 9, 2, 8, 0, 6, 7, 4, 1]
+11-24 05:06:08 - INFO - group 0 remaining_budget: [11.837606306059309, 11.837606306059309, 15.758896078766933, 7.917771601919437, 15.758896078766933, 7.917771601919437, 11.837606306059309, 15.758896078766933, 11.837606306059309, 7.917771601919437]
+11-24 05:06:08 - INFO - Group 0 training average loss: 1.461
+11-24 05:06:09 - INFO - Group 0 testing accuracy: 65.07%, loss: 0.984
+11-24 05:06:10 - INFO - Group 0 attack accuracy: 20.22%
+11-24 05:06:10 - INFO - ----- Group  0 Round   8 -----
+11-24 05:06:10 - INFO - group 0 selected clients:[3, 7, 4, 5, 2, 9, 6, 8, 1, 0]
+11-24 05:06:13 - INFO - group 0 remaining_budget: [11.782949760367595, 15.68996169895935, 11.782949760367595, 11.782949760367595, 7.853301945517344, 15.68996169895935, 11.782949760367595, 15.68996169895935, 7.853301945517344, 7.853301945517344]
+11-24 05:06:13 - INFO - Group 0 training average loss: 1.418
+11-24 05:06:13 - INFO - Group 0 testing accuracy: 67.95%, loss: 0.905
+11-24 05:06:14 - INFO - Group 0 attack accuracy: 19.06%
+11-24 05:06:14 - INFO - ----- Group  0 Round   9 -----
+11-24 05:06:14 - INFO - group 0 selected clients:[4, 1, 3, 5, 2, 9, 7, 6, 0, 8]
+11-24 05:06:17 - INFO - group 0 remaining_budget: [11.717535415602644, 7.823589573417838, 11.717535415602644, 11.717535415602644, 7.823589573417838, 15.613571521313041, 15.613571521313041, 11.717535415602644, 7.823589573417838, 15.613571521313041]
+11-24 05:06:17 - INFO - Group 0 training average loss: 1.412
+11-24 05:06:17 - INFO - Group 0 testing accuracy: 66.39%, loss: 0.952
+11-24 05:06:19 - INFO - Group 0 attack accuracy: 27.64%
+11-24 05:06:19 - INFO - ----- Group  0 Round  10 -----
+11-24 05:06:19 - INFO - group 0 selected clients:[2, 0, 4, 1, 5, 7, 6, 9, 3, 8]
+11-24 05:06:21 - INFO - group 0 remaining_budget: [7.779242066016246, 7.779242066016246, 11.644420614153674, 7.779242066016246, 11.644420614153674, 15.551461908328964, 11.644420614153674, 15.551461908328964, 11.644420614153674, 15.551461908328964]
+11-24 05:06:21 - INFO - Group 0 training average loss: 1.369
+11-24 05:06:22 - INFO - Group 0 testing accuracy: 65.86%, loss: 1.040
+11-24 05:06:23 - INFO - Group 0 attack accuracy: 32.83%
+11-24 05:06:23 - INFO - ----- Group  0 Round  11 -----
+11-24 05:06:23 - INFO - group 0 selected clients:[2, 4, 0, 1, 9, 8, 5, 3, 6, 7]
+11-24 05:06:25 - INFO - group 0 remaining_budget: [7.723951562513324, 11.583776071677978, 7.723951562513324, 7.723951562513324, 15.428789040940785, 15.428789040940785, 11.583776071677978, 11.583776071677978, 11.583776071677978, 15.428789040940785]
+11-24 05:06:25 - INFO - Group 0 training average loss: 1.390
+11-24 05:06:26 - INFO - Group 0 testing accuracy: 67.03%, loss: 1.008
+11-24 05:06:27 - INFO - Group 0 attack accuracy: 33.23%
+11-24 05:06:27 - INFO - ----- Group  0 Round  12 -----
+11-24 05:06:27 - INFO - group 0 selected clients:[4, 5, 2, 8, 1, 7, 9, 0, 3, 6]
+11-24 05:06:30 - INFO - group 0 remaining_budget: [11.499450620606993, 11.499450620606993, 7.6603150162973535, 15.3422203997716, 7.6603150162973535, 15.3422203997716, 15.3422203997716, 7.6603150162973535, 11.499450620606993, 11.499450620606993]
+11-24 05:06:30 - INFO - Group 0 training average loss: 1.333
+11-24 05:06:30 - INFO - Group 0 testing accuracy: 69.94%, loss: 0.886
+11-24 05:06:31 - INFO - Group 0 attack accuracy: 27.65%
+11-24 05:06:31 - INFO - ----- Group  0 Round  13 -----
+11-24 05:06:31 - INFO - group 0 selected clients:[2, 9, 4, 3, 5, 0, 6, 7, 8, 1]
+11-24 05:06:34 - INFO - group 0 remaining_budget: [7.605971567294265, 15.238327647485884, 11.41219539502712, 11.41219539502712, 11.41219539502712, 7.605971567294265, 11.41219539502712, 15.238327647485884, 15.238327647485884, 7.605971567294265]
+11-24 05:06:34 - INFO - Group 0 training average loss: 1.278
+11-24 05:06:34 - INFO - Group 0 testing accuracy: 72.46%, loss: 0.857
+11-24 05:06:36 - INFO - Group 0 attack accuracy: 1.75%
+11-24 05:06:36 - INFO - ----- Group  0 Round  14 -----
+11-24 05:06:36 - INFO - group 0 selected clients:[5, 1, 8, 0, 3, 9, 6, 2, 4, 7]
+11-24 05:06:39 - INFO - group 0 remaining_budget: [11.337154569214595, 7.5444204088380395, 15.120866144485618, 7.5444204088380395, 11.337154569214595, 15.120866144485618, 11.337154569214595, 7.5444204088380395, 11.337154569214595, 15.120866144485618]
+11-24 05:06:39 - INFO - Group 0 training average loss: 1.641
+11-24 05:06:39 - INFO - Group 0 testing accuracy: 73.81%, loss: 0.794
+11-24 05:06:40 - INFO - Group 0 attack accuracy: 7.81%
+11-24 05:06:40 - INFO - ----- Group  0 Round  15 -----
+11-24 05:06:40 - INFO - group 0 selected clients:[4, 2, 7, 8, 5, 6, 3, 9, 0, 1]
+11-24 05:06:43 - INFO - group 0 remaining_budget: [11.218171235424649, 7.477100128348802, 14.99267020627232, 14.99267020627232, 11.218171235424649, 11.218171235424649, 11.218171235424649, 14.99267020627232, 7.477100128348802, 7.477100128348802]
+11-24 05:06:43 - INFO - Group 0 training average loss: 1.528
+11-24 05:06:43 - INFO - Group 0 testing accuracy: 67.00%, loss: 1.220
+11-24 05:06:45 - INFO - Group 0 attack accuracy: 37.15%
+11-24 05:06:45 - INFO - ----- Group  0 Round  16 -----
+11-24 05:06:45 - INFO - group 0 selected clients:[8, 5, 6, 2, 9, 1, 4, 3, 7, 0]
+11-24 05:06:47 - INFO - group 0 remaining_budget: [14.868352170111844, 11.11402201317582, 11.11402201317582, 7.40511783070014, 14.868352170111844, 7.40511783070014, 11.11402201317582, 11.11402201317582, 14.868352170111844, 7.40511783070014]
+11-24 05:06:47 - INFO - Group 0 training average loss: 1.544
+11-24 05:06:48 - INFO - Group 0 testing accuracy: 73.83%, loss: 0.807
+11-24 05:06:49 - INFO - Group 0 attack accuracy: 16.97%
+11-24 05:06:49 - INFO - ----- Group  0 Round  17 -----
+11-24 05:06:49 - INFO - group 0 selected clients:[9, 2, 0, 1, 3, 7, 5, 8, 6, 4]
+11-24 05:06:52 - INFO - group 0 remaining_budget: [14.724008408204302, 7.329338702430807, 7.329338702430807, 7.329338702430807, 11.010355566198564, 14.724008408204302, 11.010355566198564, 14.724008408204302, 11.010355566198564, 11.010355566198564]
+11-24 05:06:52 - INFO - Group 0 training average loss: 1.384
+11-24 05:06:52 - INFO - Group 0 testing accuracy: 74.92%, loss: 0.762
+11-24 05:06:54 - INFO - Group 0 attack accuracy: 11.18%
+11-24 05:06:54 - INFO - ----- Group  0 Round  18 -----
+11-24 05:06:54 - INFO - group 0 selected clients:[7, 3, 9, 6, 8, 1, 2, 5, 4, 0]
+11-24 05:06:56 - INFO - group 0 remaining_budget: [14.563167884358256, 10.90721512818115, 14.563167884358256, 10.90721512818115, 14.563167884358256, 7.250448087492767, 7.250448087492767, 10.90721512818115, 10.90721512818115, 7.250448087492767]
+11-24 05:06:56 - INFO - Group 0 training average loss: 1.378
+11-24 05:06:57 - INFO - Group 0 testing accuracy: 72.63%, loss: 0.865
+11-24 05:06:58 - INFO - Group 0 attack accuracy: 33.42%
+11-24 05:06:58 - INFO - ----- Group  0 Round  19 -----
+11-24 05:06:58 - INFO - group 0 selected clients:[1, 4, 0, 6, 5, 8, 9, 2, 3, 7]
+11-24 05:07:01 - INFO - group 0 remaining_budget: [7.158061158101464, 10.783286879478569, 7.158061158101464, 10.783286879478569, 10.783286879478569, 14.42004922840554, 14.42004922840554, 7.158061158101464, 10.783286879478569, 14.42004922840554]
+11-24 05:07:01 - INFO - Group 0 training average loss: 1.319
+11-24 05:07:02 - INFO - Group 0 testing accuracy: 69.24%, loss: 1.026
+11-24 05:07:03 - INFO - Group 0 attack accuracy: 51.33%
+11-24 05:07:03 - INFO - ----- Group  0 Round  20 -----
+11-24 05:07:03 - INFO - group 0 selected clients:[9, 4, 7, 1, 8, 6, 3, 5, 2, 0]
+11-24 05:07:06 - INFO - group 0 remaining_budget: [14.252422401947031, 10.641817829105744, 14.252422401947031, 7.085425962216517, 14.252422401947031, 10.641817829105744, 10.641817829105744, 10.641817829105744, 7.085425962216517, 7.085425962216517]
+11-24 05:07:06 - INFO - Group 0 training average loss: 1.224
+11-24 05:07:06 - INFO - Group 0 testing accuracy: 75.71%, loss: 0.778
+11-24 05:07:08 - INFO - Group 0 attack accuracy: 8.04%
+11-24 05:07:08 - INFO - ----- Group  0 Round  21 -----
+11-24 05:07:08 - INFO - group 0 selected clients:[2, 5, 3, 9, 0, 6, 8, 4, 1, 7]
+11-24 05:07:11 - INFO - group 0 remaining_budget: [6.9902040036204784, 10.514409825939367, 10.514409825939367, 14.082939703630048, 6.9902040036204784, 10.514409825939367, 14.082939703630048, 10.514409825939367, 6.9902040036204784, 14.082939703630048]
+11-24 05:07:11 - INFO - Group 0 training average loss: 1.441
+11-24 05:07:11 - INFO - Group 0 testing accuracy: 76.35%, loss: 0.730
+11-24 05:07:12 - INFO - Group 0 attack accuracy: 14.00%
+11-24 05:07:12 - INFO - ----- Group  0 Round  22 -----
+11-24 05:07:12 - INFO - group 0 selected clients:[3, 4, 9, 0, 7, 1, 6, 5, 2, 8]
+11-24 05:07:15 - INFO - group 0 remaining_budget: [10.371642615273963, 10.371642615273963, 13.894050336502044, 6.884982152963797, 13.894050336502044, 6.884982152963797, 10.371642615273963, 10.371642615273963, 6.884982152963797, 13.894050336502044]
+11-24 05:07:15 - INFO - Group 0 training average loss: 1.344
+11-24 05:07:16 - INFO - Group 0 testing accuracy: 73.82%, loss: 0.858
+11-24 05:07:17 - INFO - Group 0 attack accuracy: 38.93%
+11-24 05:07:17 - INFO - ----- Group  0 Round  23 -----
+11-24 05:07:17 - INFO - group 0 selected clients:[0, 2, 3, 1, 5, 8, 9, 7, 6, 4]
+11-24 05:07:20 - INFO - group 0 remaining_budget: [6.789211369032199, 6.789211369032199, 10.233263116566578, 6.789211369032199, 10.233263116566578, 13.705752982051594, 13.705752982051594, 13.705752982051594, 10.233263116566578, 10.233263116566578]
+11-24 05:07:20 - INFO - Group 0 training average loss: 1.264
+11-24 05:07:20 - INFO - Group 0 testing accuracy: 76.68%, loss: 0.715
+11-24 05:07:21 - INFO - Group 0 attack accuracy: 26.37%
+11-24 05:07:21 - INFO - ----- Group  0 Round  24 -----
+11-24 05:07:21 - INFO - group 0 selected clients:[4, 7, 1, 0, 6, 2, 5, 3, 9, 8]
+11-24 05:07:25 - INFO - group 0 remaining_budget: [10.07359092066672, 13.509943293193727, 6.684456839356832, 6.684456839356832, 10.07359092066672, 6.684456839356832, 10.07359092066672, 10.07359092066672, 13.509943293193727, 13.509943293193727]
+11-24 05:07:25 - INFO - Group 0 training average loss: 1.214
+11-24 05:07:25 - INFO - Group 0 testing accuracy: 76.87%, loss: 0.708
+11-24 05:07:26 - INFO - Group 0 attack accuracy: 16.82%
+11-24 05:07:26 - INFO - ----- Group  0 Round  25 -----
+11-24 05:07:26 - INFO - group 0 selected clients:[3, 8, 0, 2, 9, 1, 5, 4, 6, 7]
+11-24 05:07:29 - INFO - group 0 remaining_budget: [9.919576554035816, 13.307751708960955, 6.571874765259183, 6.571874765259183, 13.307751708960955, 6.571874765259183, 9.919576554035816, 9.919576554035816, 9.919576554035816, 13.307751708960955]
+11-24 05:07:29 - INFO - Group 0 training average loss: 1.352
+11-24 05:07:30 - INFO - Group 0 testing accuracy: 77.17%, loss: 0.709
+11-24 05:07:31 - INFO - Group 0 attack accuracy: 18.65%
+11-24 05:07:31 - INFO - ----- Group  0 Round  26 -----
+11-24 05:07:31 - INFO - group 0 selected clients:[1, 8, 5, 9, 4, 6, 7, 3, 2, 0]
+11-24 05:07:34 - INFO - group 0 remaining_budget: [6.460427596363271, 13.092586368986133, 9.755183078196707, 13.092586368986133, 9.755183078196707, 9.755183078196707, 13.092586368986133, 9.755183078196707, 6.460427596363271, 6.460427596363271]
+11-24 05:07:34 - INFO - Group 0 training average loss: 1.357
+11-24 05:07:34 - INFO - Group 0 testing accuracy: 77.44%, loss: 0.709
+11-24 05:07:36 - INFO - Group 0 attack accuracy: 30.23%
+11-24 05:07:36 - INFO - ----- Group  0 Round  27 -----
+11-24 05:07:36 - INFO - group 0 selected clients:[2, 4, 3, 5, 6, 8, 0, 9, 7, 1]
+11-24 05:07:39 - INFO - group 0 remaining_budget: [6.350051350154647, 9.58917240171981, 9.58917240171981, 9.58917240171981, 9.58917240171981, 12.85890489009909, 6.350051350154647, 12.85890489009909, 12.85890489009909, 6.350051350154647]
+11-24 05:07:39 - INFO - Group 0 training average loss: 1.306
+11-24 05:07:39 - INFO - Group 0 testing accuracy: 77.40%, loss: 0.735
+11-24 05:07:41 - INFO - Group 0 attack accuracy: 44.29%
+11-24 05:07:41 - INFO - ----- Group  0 Round  28 -----
+11-24 05:07:41 - INFO - group 0 selected clients:[5, 8, 0, 2, 1, 7, 6, 4, 9, 3]
+11-24 05:07:44 - INFO - group 0 remaining_budget: [9.414682519420579, 12.629942322755412, 6.218513640687033, 6.218513640687033, 6.218513640687033, 12.629942322755412, 9.414682519420579, 9.414682519420579, 12.629942322755412, 9.414682519420579]
+11-24 05:07:44 - INFO - Group 0 training average loss: 1.237
+11-24 05:07:44 - INFO - Group 0 testing accuracy: 77.98%, loss: 0.704
+11-24 05:07:46 - INFO - Group 0 attack accuracy: 50.34%
+11-24 05:07:46 - INFO - ----- Group  0 Round  29 -----
+11-24 05:07:46 - INFO - group 0 selected clients:[5, 8, 7, 9, 2, 0, 4, 3, 6, 1]
+11-24 05:07:49 - INFO - group 0 remaining_budget: [9.22585237065008, 12.385208144396099, 12.385208144396099, 12.385208144396099, 6.096650082756343, 6.096650082756343, 9.22585237065008, 9.22585237065008, 9.22585237065008, 6.096650082756343]
+11-24 05:07:49 - INFO - Group 0 training average loss: 1.194
+11-24 05:07:49 - INFO - Group 0 testing accuracy: 78.35%, loss: 0.685
+11-24 05:07:51 - INFO - Group 0 attack accuracy: 50.38%
+11-24 05:07:51 - INFO - ----- Group  0 Round  30 -----
+11-24 05:07:51 - INFO - group 0 selected clients:[3, 8, 1, 7, 6, 0, 2, 9, 5, 4]
+11-24 05:07:54 - INFO - group 0 remaining_budget: [9.024317352110774, 12.146015480398125, 5.955996107070403, 12.146015480398125, 9.024317352110774, 5.955996107070403, 5.955996107070403, 12.146015480398125, 9.024317352110774, 9.024317352110774]
+11-24 05:07:54 - INFO - Group 0 training average loss: 1.183
+11-24 05:07:55 - INFO - Group 0 testing accuracy: 78.67%, loss: 0.672
+11-24 05:07:56 - INFO - Group 0 attack accuracy: 54.73%
+11-24 05:07:56 - INFO - ----- Group  0 Round  31 -----
+11-24 05:07:56 - INFO - group 0 selected clients:[8, 7, 1, 5, 9, 3, 6, 2, 0, 4]
+11-24 05:08:00 - INFO - group 0 remaining_budget: [11.880713865834801, 11.880713865834801, 5.825109165933232, 8.83079163177931, 11.880713865834801, 8.83079163177931, 8.83079163177931, 5.825109165933232, 5.825109165933232, 8.83079163177931]
+11-24 05:08:00 - INFO - Group 0 training average loss: 1.195
+11-24 05:08:00 - INFO - Group 0 testing accuracy: 79.29%, loss: 0.652
+11-24 05:08:01 - INFO - Group 0 attack accuracy: 63.49%
+11-24 05:08:01 - INFO - ----- Group  0 Round  32 -----
+11-24 05:08:01 - INFO - group 0 selected clients:[6, 7, 9, 1, 2, 8, 3, 5, 4, 0]
+11-24 05:08:05 - INFO - group 0 remaining_budget: [8.619741513271792, 11.604218385129787, 11.604218385129787, 5.683798006093612, 5.683798006093612, 11.604218385129787, 8.619741513271792, 8.619741513271792, 8.619741513271792, 5.683798006093612]
+11-24 05:08:05 - INFO - Group 0 training average loss: 1.147
+11-24 05:08:06 - INFO - Group 0 testing accuracy: 79.38%, loss: 0.658
+11-24 05:08:07 - INFO - Group 0 attack accuracy: 65.41%
+11-24 05:08:07 - INFO - ----- Group  0 Round  33 -----
+11-24 05:08:07 - INFO - group 0 selected clients:[0, 1, 8, 9, 2, 4, 5, 3, 7, 6]
+11-24 05:08:11 - INFO - group 0 remaining_budget: [5.545575202487164, 5.545575202487164, 11.32366622828309, 11.32366622828309, 5.545575202487164, 8.41102586832371, 8.41102586832371, 8.41102586832371, 11.32366622828309, 8.41102586832371]
+11-24 05:08:11 - INFO - Group 0 training average loss: 1.131
+11-24 05:08:11 - INFO - Group 0 testing accuracy: 74.32%, loss: 0.888
+11-24 05:08:13 - INFO - Group 0 attack accuracy: 86.76%
+11-24 05:08:13 - INFO - ----- Group  0 Round  34 -----
+11-24 05:08:13 - INFO - group 0 selected clients:[8, 4, 1, 2, 0, 6, 5, 7, 3, 9]
+11-24 05:08:17 - INFO - group 0 remaining_budget: [11.033988561826451, 8.192901090214976, 5.39814330151218, 5.39814330151218, 5.39814330151218, 8.192901090214976, 8.192901090214976, 11.033988561826451, 8.192901090214976, 11.033988561826451]
+11-24 05:08:17 - INFO - Group 0 training average loss: 1.084
+11-24 05:08:17 - INFO - Group 0 testing accuracy: 79.90%, loss: 0.632
+11-24 05:08:19 - INFO - Group 0 attack accuracy: 72.46%
+11-24 05:08:19 - INFO - ----- Group  0 Round  35 -----
+11-24 05:08:19 - INFO - group 0 selected clients:[5, 8, 2, 3, 1, 4, 7, 9, 6, 0]
+11-24 05:08:23 - INFO - group 0 remaining_budget: [7.9607129418105576, 10.736231819711453, 5.242394525703585, 7.9607129418105576, 5.242394525703585, 7.9607129418105576, 10.736231819711453, 10.736231819711453, 7.9607129418105576, 5.242394525703585]
+11-24 05:08:23 - INFO - Group 0 training average loss: 1.063
+11-24 05:08:24 - INFO - Group 0 testing accuracy: 80.36%, loss: 0.628
+11-24 05:08:25 - INFO - Group 0 attack accuracy: 81.97%
+11-24 05:08:25 - INFO - ----- Group  0 Round  36 -----
+11-24 05:08:25 - INFO - group 0 selected clients:[5, 2, 4, 0, 3, 8, 7, 1, 6, 9]
+11-24 05:08:30 - INFO - group 0 remaining_budget: [7.726792530546268, 5.08480640342983, 7.726792530546268, 5.08480640342983, 7.726792530546268, 10.404807680711567, 10.404807680711567, 5.08480640342983, 7.726792530546268, 10.404807680711567]
+11-24 05:08:30 - INFO - Group 0 training average loss: 0.991
+11-24 05:08:30 - INFO - Group 0 testing accuracy: 79.67%, loss: 0.650
+11-24 05:08:31 - INFO - Group 0 attack accuracy: 73.72%
+11-24 05:08:31 - INFO - ----- Group  0 Round  37 -----
+11-24 05:08:31 - INFO - group 0 selected clients:[2, 9, 1, 0, 3, 4, 6, 8, 5, 7]
+11-24 05:08:36 - INFO - group 0 remaining_budget: [4.920080435429114, 10.068653259862966, 4.920080435429114, 4.920080435429114, 7.491413264584686, 7.491413264584686, 7.491413264584686, 10.068653259862966, 7.491413264584686, 10.068653259862966]
+11-24 05:08:36 - INFO - Group 0 training average loss: 1.087
+11-24 05:08:37 - INFO - Group 0 testing accuracy: 80.16%, loss: 0.642
+11-24 05:08:38 - INFO - Group 0 attack accuracy: 71.29%
+11-24 05:08:38 - INFO - ----- Group  0 Round  38 -----
+11-24 05:08:38 - INFO - group 0 selected clients:[4, 6, 7, 8, 1, 3, 0, 5, 9, 2]
+11-24 05:08:43 - INFO - group 0 remaining_budget: [7.234187417923316, 7.234187417923316, 9.758342904382832, 9.758342904382832, 4.759608010834445, 7.234187417923316, 4.759608010834445, 7.234187417923316, 9.758342904382832, 4.759608010834445]
+11-24 05:08:43 - INFO - Group 0 training average loss: 1.141
+11-24 05:08:43 - INFO - Group 0 testing accuracy: 80.39%, loss: 0.627
+11-24 05:08:45 - INFO - Group 0 attack accuracy: 74.55%
+11-24 05:08:45 - INFO - ----- Group  0 Round  39 -----
+11-24 05:08:45 - INFO - group 0 selected clients:[6, 5, 3, 1, 9, 0, 4, 8, 2, 7]
+11-24 05:08:51 - INFO - group 0 remaining_budget: [6.977123202154396, 6.977123202154396, 6.977123202154396, 4.582230215622184, 9.413646109626477, 4.582230215622184, 6.977123202154396, 9.413646109626477, 4.582230215622184, 9.413646109626477]
+11-24 05:08:51 - INFO - Group 0 training average loss: 1.113
+11-24 05:08:51 - INFO - Group 0 testing accuracy: 75.05%, loss: 0.882
+11-24 05:08:52 - INFO - Group 0 attack accuracy: 89.05%
+11-24 05:08:53 - INFO - Grouped global model testing accuracy: 75.05%, loss: 0.882
+11-24 05:08:53 - INFO - ________Begin Recover Group 0________
+11-24 05:08:53 - INFO - DIARY select rounds: [0, 1, 2, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 20, 32, 34, 36, 37]
+11-24 05:08:53 - INFO - DIARY select clients: [[9, 8, 7, 3, 5, 4, 6, 0, 1], [9, 4, 3, 5, 0, 1], [9, 4, 3, 0, 2], [7, 6, 3, 2, 0], [8, 7, 4, 3, 1], [8, 7, 3, 4, 6], [7, 9, 3, 4, 5], [7, 8, 9, 4, 3, 5, 2], [7, 8, 9, 4, 3, 5, 2], [7, 8, 9, 3, 5, 1], [8, 7, 9, 4, 3, 5, 1], [8, 7, 9, 4, 3, 5, 0, 2], [7, 8, 9, 3, 5, 4], [7, 9, 8, 3, 5, 4, 0], [9, 7, 8, 5, 3], [9, 7, 8, 5, 3, 4], [7, 9, 8, 5, 4], [8, 9, 7, 5, 3], [8, 9, 7, 5, 3]]
+11-24 05:09:44 - INFO - ----- DIARY Recover Round   0  -----
+11-24 05:09:44 - INFO - remaining client:[9, 8, 7, 3, 5, 1]
+11-24 05:09:44 - INFO - remaining_budget: [9.413646109626477, 9.413646109626477, 9.413646109626477, 6.977123202154396, 6.977123202154396, 4.582230215622184]
+11-24 05:09:44 - INFO - Training average loss: 0.000
+11-24 05:09:45 - INFO - Testing accuracy: 23.21%, loss: 2.178
+11-24 05:09:46 - INFO - Attack accuracy: 2.91%
+11-24 05:09:46 - INFO - ----- DIARY Recover Round   1  -----
+11-24 05:09:46 - INFO - remaining client:[9, 3, 5, 1]
+11-24 05:09:48 - INFO - remaining_budget: [8.923214117094588, 6.646899281270684, 6.569880592005048, 3.5420502823302513]
+11-24 05:09:48 - INFO - Training average loss: 2.116
+11-24 05:09:48 - INFO - Testing accuracy: 10.00%, loss: 3.700
+11-24 05:09:50 - INFO - Attack accuracy: 0.00%
+11-24 05:09:50 - INFO - ----- DIARY Recover Round   2  -----
+11-24 05:09:50 - INFO - remaining client:[9, 3]
+11-24 05:09:51 - INFO - remaining_budget: [8.361495935250108, 6.290617357324868]
+11-24 05:09:51 - INFO - Training average loss: 2.897
+11-24 05:09:51 - INFO - Testing accuracy: 45.51%, loss: 4.316
+11-24 05:09:52 - INFO - Attack accuracy: 12.46%
+11-24 05:09:52 - INFO - ----- DIARY Recover Round   3  -----
+11-24 05:09:52 - INFO - remaining client:[7, 3]
+11-24 05:09:53 - INFO - remaining_budget: [8.957760132716707, 5.909494054113555]
+11-24 05:09:53 - INFO - Training average loss: 4.168
+11-24 05:09:54 - INFO - Testing accuracy: 25.97%, loss: 4.452
+11-24 05:09:55 - INFO - Attack accuracy: 0.00%
+11-24 05:09:55 - INFO - ----- DIARY Recover Round   4  -----
+11-24 05:09:55 - INFO - remaining client:[8, 7, 3, 1]
+11-24 05:09:57 - INFO - remaining_budget: [8.87483463341432, 8.44155729616886, 5.523225424361706, 2.4267482357870955]
+11-24 05:09:57 - INFO - Training average loss: 3.789
+11-24 05:09:57 - INFO - Testing accuracy: 39.12%, loss: 3.233
+11-24 05:09:58 - INFO - Attack accuracy: 0.00%
+11-24 05:09:58 - INFO - ----- DIARY Recover Round   5  -----
+11-24 05:09:58 - INFO - remaining client:[8, 7, 3]
+11-24 05:10:00 - INFO - remaining_budget: [8.286673683819021, 7.908695000586247, 5.145228107010106]
+11-24 05:10:00 - INFO - Training average loss: 3.122
+11-24 05:10:00 - INFO - Testing accuracy: 42.74%, loss: 3.244
+11-24 05:10:02 - INFO - Attack accuracy: 28.37%
+11-24 05:10:02 - INFO - ----- DIARY Recover Round   6  -----
+11-24 05:10:02 - INFO - remaining client:[7, 9, 3, 5]
+11-24 05:10:04 - INFO - remaining_budget: [7.351609289148641, 7.786401173676669, 4.736611057667974, 6.132784890070392]
+11-24 05:10:04 - INFO - Training average loss: 2.986
+11-24 05:10:04 - INFO - Testing accuracy: 40.98%, loss: 2.284
+11-24 05:10:06 - INFO - Attack accuracy: 0.00%
+11-24 05:10:06 - INFO - ----- DIARY Recover Round   7  -----
+11-24 05:10:06 - INFO - remaining client:[7, 8, 9, 3, 5]
+11-24 05:10:09 - INFO - remaining_budget: [6.776395019296368, 7.656441333878417, 7.190135196237593, 4.332821479442618, 5.6674085899334585]
+11-24 05:10:09 - INFO - Training average loss: 1.956
+11-24 05:10:09 - INFO - Testing accuracy: 48.11%, loss: 1.759
+11-24 05:10:10 - INFO - Attack accuracy: 0.00%
+11-24 05:10:10 - INFO - ----- DIARY Recover Round   8  -----
+11-24 05:10:10 - INFO - remaining client:[7, 8, 9, 3, 5]
+11-24 05:10:14 - INFO - remaining_budget: [6.200831615000299, 7.013258198381152, 6.570200774074866, 3.91333187926565, 5.198211548788504]
+11-24 05:10:14 - INFO - Training average loss: 1.756
+11-24 05:10:14 - INFO - Testing accuracy: 49.82%, loss: 2.333
+11-24 05:10:15 - INFO - Attack accuracy: 9.16%
+11-24 05:10:15 - INFO - ----- DIARY Recover Round   9  -----
+11-24 05:10:15 - INFO - remaining client:[7, 8, 9, 3, 5, 1]
+11-24 05:10:19 - INFO - remaining_budget: [5.601130228669076, 6.349812269438415, 5.948895554405656, 3.4911242274267202, 4.695095183676616, 1.2678703668009508]
+11-24 05:10:19 - INFO - Training average loss: 2.263
+11-24 05:10:19 - INFO - Testing accuracy: 54.78%, loss: 2.039
+11-24 05:10:21 - INFO - Attack accuracy: 19.72%
+11-24 05:10:21 - INFO - ----- DIARY Recover Round  10  -----
+11-24 05:10:21 - INFO - remaining client:[8, 7, 9, 3, 5, 1]
+11-24 05:10:25 - INFO - remaining_budget: [5.671869635352476, 5.002423864295039, 5.314483040087389, 3.066417945997955, 4.19878672401756, 0.09308160992734127]
+11-24 05:10:25 - INFO - Training average loss: 1.907
+11-24 05:10:25 - INFO - Testing accuracy: 63.26%, loss: 1.660
+11-24 05:10:27 - INFO - Attack accuracy: 0.22%
+11-24 05:10:27 - INFO - ----- DIARY Recover Round  11  -----
+11-24 05:10:27 - INFO - remaining client:[8, 7, 9, 3, 5]
+11-24 05:10:31 - INFO - remaining_budget: [4.996463693778681, 4.4122331082668556, 4.66418456140458, 2.646926086884008, 3.6923426694226276]
+11-24 05:10:31 - INFO - Training average loss: 1.582
+11-24 05:10:31 - INFO - Testing accuracy: 61.80%, loss: 1.570
+11-24 05:10:32 - INFO - Attack accuracy: 0.04%
+11-24 05:10:32 - INFO - ----- DIARY Recover Round  12  -----
+11-24 05:10:32 - INFO - remaining client:[7, 8, 9, 3, 5]
+11-24 05:10:37 - INFO - remaining_budget: [3.800535935995237, 4.296547712245795, 4.033114315248428, 2.2213061535409935, 3.2046186643271746]
+11-24 05:10:37 - INFO - Training average loss: 1.546
+11-24 05:10:37 - INFO - Testing accuracy: 57.63%, loss: 1.314
+11-24 05:10:38 - INFO - Attack accuracy: 0.37%
+11-24 05:10:38 - INFO - ----- DIARY Recover Round  13  -----
+11-24 05:10:38 - INFO - remaining client:[7, 9, 8, 3, 5]
+11-24 05:10:43 - INFO - remaining_budget: [3.194076757481673, 3.3685729564326667, 3.5965689067072635, 1.7935814579981564, 2.675678678421443]
+11-24 05:10:43 - INFO - Training average loss: 1.240
+11-24 05:10:43 - INFO - Testing accuracy: 64.05%, loss: 1.164
+11-24 05:10:44 - INFO - Attack accuracy: 17.36%
+11-24 05:10:44 - INFO - ----- DIARY Recover Round  14  -----
+11-24 05:10:44 - INFO - remaining client:[9, 7, 8, 5, 3]
+11-24 05:10:49 - INFO - remaining_budget: [2.7159838735497708, 2.5785085243890844, 2.900256152405529, 2.169537947362125, 1.3568935877110881]
+11-24 05:10:49 - INFO - Training average loss: 1.169
+11-24 05:10:50 - INFO - Testing accuracy: 67.28%, loss: 1.326
+11-24 05:10:51 - INFO - Attack accuracy: 12.37%
+11-24 05:10:51 - INFO - ----- DIARY Recover Round  15  -----
+11-24 05:10:51 - INFO - remaining client:[9, 7, 8, 5, 3]
+11-24 05:10:56 - INFO - remaining_budget: [2.0570968363503273, 1.9613603082205504, 2.1896101121007465, 1.6399913534426638, 0.92214717764959]
+11-24 05:10:56 - INFO - Training average loss: 1.288
+11-24 05:10:57 - INFO - Testing accuracy: 68.24%, loss: 1.302
+11-24 05:10:58 - INFO - Attack accuracy: 1.86%
+11-24 05:10:58 - INFO - ----- DIARY Recover Round  16  -----
+11-24 05:10:58 - INFO - remaining client:[7, 9, 8, 5]
+11-24 05:11:02 - INFO - remaining_budget: [1.3260489865600356, 1.3958173196656993, 1.4796326197501735, 1.1250277850020094]
+11-24 05:11:02 - INFO - Training average loss: 1.193
+11-24 05:11:03 - INFO - Testing accuracy: 70.57%, loss: 0.952
+11-24 05:11:04 - INFO - Attack accuracy: 0.49%
+11-24 05:11:04 - INFO - ----- DIARY Recover Round  17  -----
+11-24 05:11:04 - INFO - remaining client:[8, 9, 7, 5, 3]
+11-24 05:11:10 - INFO - remaining_budget: [0.7669502043100866, 0.7223724513151968, 0.7032836825939182, 0.6024028779152122, 0.49260542084820536]
+11-24 05:11:10 - INFO - Training average loss: 0.886
+11-24 05:11:10 - INFO - Testing accuracy: 70.41%, loss: 0.881
+11-24 05:11:11 - INFO - Attack accuracy: 0.50%
+11-24 05:11:11 - INFO - ----- DIARY Recover Round  18  -----
+11-24 05:11:11 - INFO - remaining client:[8, 9, 7, 5, 3]
+11-24 05:11:18 - INFO - remaining_budget: [0.03856615787885964, 0.04088783994686196, 0.07307846707827714, 0.07613741353313941, 0.0580875452166989]
+11-24 05:11:18 - INFO - Training average loss: 0.832
+11-24 05:11:18 - INFO - Testing accuracy: 71.97%, loss: 0.875
+11-24 05:11:20 - INFO - Attack accuracy: 8.09%
+11-24 05:11:20 - INFO - ----- The recover process end -----
+11-24 05:11:20 - INFO - Total time cost: 64.77817010879517s
+11-24 05:11:20 - INFO - Recovered grouped global model testing accuracy: 71.97%, loss: 0.875
+11-24 05:11:21 - INFO - Attack accuracy: 8.09%

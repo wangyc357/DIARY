@@ -1,0 +1,715 @@
+11-24 05:27:58 - INFO - Total budgets for clients: [8.0, 8.0, 8.0, 12.0, 12.0, 12.0, 12.0, 16.0, 16.0, 16.0]
+11-24 05:30:42 - INFO - The initial noise_multiplier: [57.8125, 57.8125, 57.8125, 47.8125, 47.8125, 47.8125, 47.8125, 42.03125, 42.03125, 42.03125]
+11-24 05:30:42 - INFO - ----- Group  0 Round   0 -----
+11-24 05:30:42 - INFO - group 0 selected clients:[0, 2, 1, 4, 5, 7, 8, 6, 3, 9]
+11-24 05:30:45 - INFO - group 0 remaining_budget: [7.847843232618794, 7.847843232618794, 7.847843232618794, 11.848269631495336, 11.848269631495336, 15.84861097496508, 15.84861097496508, 11.848269631495336, 11.848269631495336, 15.84861097496508]
+11-24 05:30:45 - DEBUG - FIND begin::
+11-24 05:30:45 - DEBUG - cluster labels: [-1  0  0  0 -1 -1  0  0 -1  0]
+11-24 05:30:45 - DEBUG - The benign clients: [2, 1, 4, 8, 6, 9]
+11-24 05:30:45 - DEBUG - The malicious clients: [0, 5, 7, 3]
+11-24 05:30:45 - DEBUG - ::FIND end
+11-24 05:30:45 - INFO - Group 0 training average loss: 2.193
+11-24 05:30:45 - INFO - Group 0 testing accuracy: 10.00%, loss: 3.758
+11-24 05:30:46 - INFO - Group 0 attack accuracy: 90.00%
+11-24 05:30:46 - INFO - ----- Group  0 Round   1 -----
+11-24 05:30:46 - INFO - group 0 selected clients:[6, 8, 5, 7, 3, 0, 1, 9, 4, 2]
+11-24 05:30:49 - INFO - group 0 remaining_budget: [11.907179310644164, 15.907531902264113, 11.907179310644164, 15.907531902264113, 11.907179310644164, 7.906739296814633, 7.906739296814633, 15.907531902264113, 11.907179310644164, 7.906739296814633]
+11-24 05:30:49 - DEBUG - FIND begin::
+11-24 05:30:49 - DEBUG - cluster labels: [ 0  0 -1 -1 -1  0  0  0  0 -1]
+11-24 05:30:49 - DEBUG - The benign clients: [6, 8, 0, 1, 9, 4]
+11-24 05:30:49 - DEBUG - The malicious clients: [5, 7, 3, 2]
+11-24 05:30:49 - DEBUG - ::FIND end
+11-24 05:30:49 - INFO - Group 0 training average loss: 2.955
+11-24 05:30:49 - INFO - Group 0 testing accuracy: 10.00%, loss: 3.756
+11-24 05:30:51 - INFO - Group 0 attack accuracy: 90.00%
+11-24 05:30:51 - INFO - ----- Group  0 Round   2 -----
+11-24 05:30:51 - INFO - group 0 selected clients:[5, 8, 9, 0, 7, 3, 4, 1, 6, 2]
+11-24 05:30:54 - INFO - group 0 remaining_budget: [11.93339487653057, 15.933734265340311, 15.933734265340311, 7.932971671331357, 15.933734265340311, 11.93339487653057, 11.93339487653057, 7.932971671331357, 11.93339487653057, 7.932971671331357]
+11-24 05:30:54 - DEBUG - FIND begin::
+11-24 05:30:54 - DEBUG - cluster labels: [-1  0  0  0 -1 -1  0 -1  0  0]
+11-24 05:30:54 - DEBUG - The benign clients: [8, 9, 0, 4, 6, 2]
+11-24 05:30:54 - DEBUG - The malicious clients: [5, 7, 3, 1]
+11-24 05:30:54 - DEBUG - ::FIND end
+11-24 05:30:54 - INFO - Group 0 training average loss: 2.662
+11-24 05:30:54 - INFO - Group 0 testing accuracy: 30.16%, loss: 2.016
+11-24 05:30:56 - INFO - Group 0 attack accuracy: 83.61%
+11-24 05:30:56 - INFO - ----- Group  0 Round   3 -----
+11-24 05:30:56 - INFO - group 0 selected clients:[9, 7, 5, 4, 0, 8, 6, 2, 3, 1]
+11-24 05:30:58 - INFO - group 0 remaining_budget: [15.948529158059479, 15.948529158059479, 11.948205188513848, 11.948205188513848, 7.94780146040104, 15.948529158059479, 11.948205188513848, 7.94780146040104, 11.948205188513848, 7.94780146040104]
+11-24 05:30:58 - DEBUG - FIND begin::
+11-24 05:30:58 - DEBUG - cluster labels: [0 0 0 0 0 0 0 0 0 0]
+11-24 05:30:58 - DEBUG - The benign clients: [9, 7, 5, 4, 0, 8, 6, 2, 3, 1]
+11-24 05:30:58 - DEBUG - The malicious clients: []
+11-24 05:30:58 - DEBUG - ::FIND end
+11-24 05:30:58 - INFO - Group 0 training average loss: 1.801
+11-24 05:30:59 - INFO - Group 0 testing accuracy: 48.45%, loss: 1.669
+11-24 05:31:00 - INFO - Group 0 attack accuracy: 0.05%
+11-24 05:31:00 - INFO - ----- Group  0 Round   4 -----
+11-24 05:31:00 - INFO - group 0 selected clients:[5, 8, 9, 2, 3, 7, 6, 4, 0, 1]
+11-24 05:31:03 - INFO - group 0 remaining_budget: [11.957715213164715, 15.916049893313456, 15.916049893313456, 7.957329412985505, 11.957715213164715, 15.916049893313456, 11.957715213164715, 11.957715213164715, 7.957329412985505, 7.957329412985505]
+11-24 05:31:03 - DEBUG - FIND begin::
+11-24 05:31:03 - DEBUG - cluster labels: [-1  0  0 -1  0 -1 -1  0  0  0]
+11-24 05:31:03 - DEBUG - The benign clients: [8, 9, 3, 4, 0, 1]
+11-24 05:31:03 - DEBUG - The malicious clients: [5, 2, 7, 6]
+11-24 05:31:03 - DEBUG - ::FIND end
+11-24 05:31:03 - INFO - Group 0 training average loss: 2.012
+11-24 05:31:03 - INFO - Group 0 testing accuracy: 58.01%, loss: 1.353
+11-24 05:31:05 - INFO - Group 0 attack accuracy: 1.78%
+11-24 05:31:05 - INFO - ----- Group  0 Round   5 -----
+11-24 05:31:05 - INFO - group 0 selected clients:[6, 2, 9, 8, 0, 4, 7, 5, 3, 1]
+11-24 05:31:08 - INFO - group 0 remaining_budget: [11.928667934647567, 7.9639639898876, 15.893893326970797, 15.893893326970797, 7.9639639898876, 11.928667934647567, 15.893893326970797, 11.928667934647567, 11.928667934647567, 7.9639639898876]
+11-24 05:31:08 - DEBUG - FIND begin::
+11-24 05:31:08 - DEBUG - cluster labels: [ 0 -1  0  0  0  0  0  0  0  0]
+11-24 05:31:08 - DEBUG - The benign clients: [6, 9, 8, 0, 4, 7, 5, 3, 1]
+11-24 05:31:08 - DEBUG - The malicious clients: [2]
+11-24 05:31:08 - DEBUG - ::FIND end
+11-24 05:31:08 - INFO - Group 0 training average loss: 1.925
+11-24 05:31:08 - INFO - Group 0 testing accuracy: 45.56%, loss: 1.436
+11-24 05:31:10 - INFO - Group 0 attack accuracy: 57.02%
+11-24 05:31:10 - INFO - ----- Group  0 Round   6 -----
+11-24 05:31:10 - INFO - group 0 selected clients:[5, 2, 9, 6, 8, 7, 1, 4, 0, 3]
+11-24 05:31:12 - INFO - group 0 remaining_budget: [11.876813532516811, 7.9376945843534745, 15.81693671462793, 11.876813532516811, 15.81693671462793, 15.81693671462793, 7.9376945843534745, 11.876813532516811, 7.9376945843534745, 11.876813532516811]
+11-24 05:31:12 - DEBUG - FIND begin::
+11-24 05:31:12 - DEBUG - cluster labels: [ 0  0  0  0  0  0  0 -1  0  0]
+11-24 05:31:12 - DEBUG - The benign clients: [5, 2, 9, 6, 8, 7, 1, 0, 3]
+11-24 05:31:12 - DEBUG - The malicious clients: [4]
+11-24 05:31:12 - DEBUG - ::FIND end
+11-24 05:31:12 - INFO - Group 0 training average loss: 1.690
+11-24 05:31:12 - INFO - Group 0 testing accuracy: 45.48%, loss: 1.552
+11-24 05:31:14 - INFO - Group 0 attack accuracy: 60.85%
+11-24 05:31:14 - INFO - ----- Group  0 Round   7 -----
+11-24 05:31:14 - INFO - group 0 selected clients:[7, 4, 8, 2, 5, 3, 9, 6, 1, 0]
+11-24 05:31:16 - INFO - group 0 remaining_budget: [15.758896078766933, 11.837606306059309, 15.758896078766933, 7.917771601919437, 11.837606306059309, 11.837606306059309, 15.758896078766933, 11.837606306059309, 7.917771601919437, 7.917771601919437]
+11-24 05:31:16 - DEBUG - FIND begin::
+11-24 05:31:16 - DEBUG - cluster labels: [-1 -1  0  0  0  0 -1  0  0  0]
+11-24 05:31:16 - DEBUG - The benign clients: [8, 2, 5, 3, 6, 1, 0]
+11-24 05:31:16 - DEBUG - The malicious clients: [7, 4, 9]
+11-24 05:31:16 - DEBUG - ::FIND end
+11-24 05:31:16 - INFO - Group 0 training average loss: 1.530
+11-24 05:31:17 - INFO - Group 0 testing accuracy: 61.63%, loss: 1.137
+11-24 05:31:18 - INFO - Group 0 attack accuracy: 35.14%
+11-24 05:31:18 - INFO - ----- Group  0 Round   8 -----
+11-24 05:31:18 - INFO - group 0 selected clients:[5, 0, 4, 2, 9, 3, 8, 1, 6, 7]
+11-24 05:31:21 - INFO - group 0 remaining_budget: [11.782949760367595, 7.853301945517344, 11.782949760367595, 7.853301945517344, 15.68996169895935, 11.782949760367595, 15.68996169895935, 7.853301945517344, 11.782949760367595, 15.68996169895935]
+11-24 05:31:21 - DEBUG - FIND begin::
+11-24 05:31:21 - DEBUG - cluster labels: [ 0  0 -1  0 -1  0  0  0 -1 -1]
+11-24 05:31:21 - DEBUG - The benign clients: [5, 0, 2, 3, 8, 1]
+11-24 05:31:21 - DEBUG - The malicious clients: [4, 9, 6, 7]
+11-24 05:31:21 - DEBUG - ::FIND end
+11-24 05:31:21 - INFO - Group 0 training average loss: 1.321
+11-24 05:31:21 - INFO - Group 0 testing accuracy: 68.33%, loss: 0.891
+11-24 05:31:22 - INFO - Group 0 attack accuracy: 7.38%
+11-24 05:31:22 - INFO - ----- Group  0 Round   9 -----
+11-24 05:31:22 - INFO - group 0 selected clients:[7, 8, 1, 5, 9, 3, 4, 2, 0, 6]
+11-24 05:31:25 - INFO - group 0 remaining_budget: [15.613571521313041, 15.613571521313041, 7.823589573417838, 11.717535415602644, 15.613571521313041, 11.717535415602644, 11.717535415602644, 7.823589573417838, 7.823589573417838, 11.717535415602644]
+11-24 05:31:25 - DEBUG - FIND begin::
+11-24 05:31:25 - DEBUG - cluster labels: [-1  0  0 -1  0  0 -1  0 -1  0]
+11-24 05:31:25 - DEBUG - The benign clients: [8, 1, 9, 3, 2, 6]
+11-24 05:31:25 - DEBUG - The malicious clients: [7, 5, 4, 0]
+11-24 05:31:25 - DEBUG - ::FIND end
+11-24 05:31:25 - INFO - Group 0 training average loss: 1.431
+11-24 05:31:25 - INFO - Group 0 testing accuracy: 69.64%, loss: 0.859
+11-24 05:31:26 - INFO - Group 0 attack accuracy: 8.61%
+11-24 05:31:26 - INFO - ----- Group  0 Round  10 -----
+11-24 05:31:26 - INFO - group 0 selected clients:[2, 3, 6, 0, 5, 1, 4, 8, 7, 9]
+11-24 05:31:29 - INFO - group 0 remaining_budget: [7.779242066016246, 11.644420614153674, 11.644420614153674, 7.779242066016246, 11.644420614153674, 7.779242066016246, 11.644420614153674, 15.551461908328964, 15.551461908328964, 15.551461908328964]
+11-24 05:31:29 - DEBUG - FIND begin::
+11-24 05:31:29 - DEBUG - cluster labels: [ 0  0  0  0 -1  0 -1  0 -1  0]
+11-24 05:31:29 - DEBUG - The benign clients: [2, 3, 6, 0, 1, 8, 9]
+11-24 05:31:29 - DEBUG - The malicious clients: [5, 4, 7]
+11-24 05:31:29 - DEBUG - ::FIND end
+11-24 05:31:29 - INFO - Group 0 training average loss: 1.452
+11-24 05:31:29 - INFO - Group 0 testing accuracy: 62.11%, loss: 1.329
+11-24 05:31:31 - INFO - Group 0 attack accuracy: 47.67%
+11-24 05:31:31 - INFO - ----- Group  0 Round  11 -----
+11-24 05:31:31 - INFO - group 0 selected clients:[6, 7, 2, 9, 3, 4, 0, 5, 8, 1]
+11-24 05:31:33 - INFO - group 0 remaining_budget: [11.583776071677978, 15.428789040940785, 7.723951562513324, 15.428789040940785, 11.583776071677978, 11.583776071677978, 7.723951562513324, 11.583776071677978, 15.428789040940785, 7.723951562513324]
+11-24 05:31:33 - DEBUG - FIND begin::
+11-24 05:31:33 - DEBUG - cluster labels: [ 0  0  0  0  0 -1  0 -1  0  0]
+11-24 05:31:33 - DEBUG - The benign clients: [6, 7, 2, 9, 3, 0, 8, 1]
+11-24 05:31:33 - DEBUG - The malicious clients: [4, 5]
+11-24 05:31:33 - DEBUG - ::FIND end
+11-24 05:31:33 - INFO - Group 0 training average loss: 1.487
+11-24 05:31:33 - INFO - Group 0 testing accuracy: 63.91%, loss: 1.228
+11-24 05:31:35 - INFO - Group 0 attack accuracy: 51.00%
+11-24 05:31:35 - INFO - ----- Group  0 Round  12 -----
+11-24 05:31:35 - INFO - group 0 selected clients:[8, 1, 2, 6, 9, 0, 5, 4, 7, 3]
+11-24 05:31:37 - INFO - group 0 remaining_budget: [15.3422203997716, 7.6603150162973535, 7.6603150162973535, 11.499450620606993, 15.3422203997716, 7.6603150162973535, 11.499450620606993, 11.499450620606993, 15.3422203997716, 11.499450620606993]
+11-24 05:31:37 - DEBUG - FIND begin::
+11-24 05:31:37 - DEBUG - cluster labels: [ 0 -1  0  0  0 -1 -1  0  0  0]
+11-24 05:31:37 - DEBUG - The benign clients: [8, 2, 6, 9, 4, 7, 3]
+11-24 05:31:37 - DEBUG - The malicious clients: [1, 0, 5]
+11-24 05:31:37 - DEBUG - ::FIND end
+11-24 05:31:37 - INFO - Group 0 training average loss: 1.301
+11-24 05:31:38 - INFO - Group 0 testing accuracy: 70.52%, loss: 0.891
+11-24 05:31:39 - INFO - Group 0 attack accuracy: 34.07%
+11-24 05:31:39 - INFO - ----- Group  0 Round  13 -----
+11-24 05:31:39 - INFO - group 0 selected clients:[2, 8, 5, 6, 0, 4, 9, 1, 7, 3]
+11-24 05:31:42 - INFO - group 0 remaining_budget: [7.605971567294265, 15.238327647485884, 11.41219539502712, 11.41219539502712, 7.605971567294265, 11.41219539502712, 15.238327647485884, 7.605971567294265, 15.238327647485884, 11.41219539502712]
+11-24 05:31:42 - DEBUG - FIND begin::
+11-24 05:31:42 - DEBUG - cluster labels: [-1  0 -1  0 -1  0 -1  0  0  0]
+11-24 05:31:42 - DEBUG - The benign clients: [8, 6, 4, 1, 7, 3]
+11-24 05:31:42 - DEBUG - The malicious clients: [2, 5, 0, 9]
+11-24 05:31:42 - DEBUG - ::FIND end
+11-24 05:31:42 - INFO - Group 0 training average loss: 1.191
+11-24 05:31:42 - INFO - Group 0 testing accuracy: 72.15%, loss: 0.804
+11-24 05:31:43 - INFO - Group 0 attack accuracy: 15.06%
+11-24 05:31:43 - INFO - ----- Group  0 Round  14 -----
+11-24 05:31:43 - INFO - group 0 selected clients:[9, 5, 3, 8, 2, 0, 6, 1, 7, 4]
+11-24 05:31:46 - INFO - group 0 remaining_budget: [15.120866144485618, 11.337154569214595, 11.337154569214595, 15.120866144485618, 7.5444204088380395, 7.5444204088380395, 11.337154569214595, 7.5444204088380395, 15.120866144485618, 11.337154569214595]
+11-24 05:31:46 - DEBUG - FIND begin::
+11-24 05:31:46 - DEBUG - cluster labels: [-1 -1  0  0 -1 -1  0  0  0  0]
+11-24 05:31:46 - DEBUG - The benign clients: [3, 8, 6, 1, 7, 4]
+11-24 05:31:46 - DEBUG - The malicious clients: [9, 5, 2, 0]
+11-24 05:31:46 - DEBUG - ::FIND end
+11-24 05:31:46 - INFO - Group 0 training average loss: 1.316
+11-24 05:31:46 - INFO - Group 0 testing accuracy: 72.86%, loss: 0.817
+11-24 05:31:47 - INFO - Group 0 attack accuracy: 21.67%
+11-24 05:31:47 - INFO - ----- Group  0 Round  15 -----
+11-24 05:31:47 - INFO - group 0 selected clients:[1, 4, 8, 2, 0, 7, 9, 6, 3, 5]
+11-24 05:31:50 - INFO - group 0 remaining_budget: [7.477100128348802, 11.218171235424649, 14.99267020627232, 7.477100128348802, 7.477100128348802, 14.99267020627232, 14.99267020627232, 11.218171235424649, 11.218171235424649, 11.218171235424649]
+11-24 05:31:50 - DEBUG - FIND begin::
+11-24 05:31:50 - DEBUG - cluster labels: [ 0  0  0 -1 -1  0 -1  0  0 -1]
+11-24 05:31:50 - DEBUG - The benign clients: [1, 4, 8, 7, 6, 3]
+11-24 05:31:50 - DEBUG - The malicious clients: [2, 0, 9, 5]
+11-24 05:31:50 - DEBUG - ::FIND end
+11-24 05:31:50 - INFO - Group 0 training average loss: 1.349
+11-24 05:31:51 - INFO - Group 0 testing accuracy: 70.91%, loss: 0.984
+11-24 05:31:52 - INFO - Group 0 attack accuracy: 43.70%
+11-24 05:31:52 - INFO - ----- Group  0 Round  16 -----
+11-24 05:31:52 - INFO - group 0 selected clients:[0, 2, 6, 9, 7, 3, 8, 4, 5, 1]
+11-24 05:31:55 - INFO - group 0 remaining_budget: [7.40511783070014, 7.40511783070014, 11.11402201317582, 14.868352170111844, 14.868352170111844, 11.11402201317582, 14.868352170111844, 11.11402201317582, 11.11402201317582, 7.40511783070014]
+11-24 05:31:55 - DEBUG - FIND begin::
+11-24 05:31:55 - DEBUG - cluster labels: [-1 -1  0  0  0  0  0  0  0  0]
+11-24 05:31:55 - DEBUG - The benign clients: [6, 9, 7, 3, 8, 4, 5, 1]
+11-24 05:31:55 - DEBUG - The malicious clients: [0, 2]
+11-24 05:31:55 - DEBUG - ::FIND end
+11-24 05:31:55 - INFO - Group 0 training average loss: 1.347
+11-24 05:31:55 - INFO - Group 0 testing accuracy: 72.68%, loss: 0.868
+11-24 05:31:56 - INFO - Group 0 attack accuracy: 44.48%
+11-24 05:31:56 - INFO - ----- Group  0 Round  17 -----
+11-24 05:31:56 - INFO - group 0 selected clients:[1, 9, 2, 7, 8, 3, 5, 6, 0, 4]
+11-24 05:31:59 - INFO - group 0 remaining_budget: [7.329338702430807, 14.724008408204302, 7.329338702430807, 14.724008408204302, 14.724008408204302, 11.010355566198564, 11.010355566198564, 11.010355566198564, 7.329338702430807, 11.010355566198564]
+11-24 05:31:59 - DEBUG - FIND begin::
+11-24 05:31:59 - DEBUG - cluster labels: [ 0  0 -1 -1  0  0 -1  0 -1  0]
+11-24 05:31:59 - DEBUG - The benign clients: [1, 9, 8, 3, 6, 4]
+11-24 05:31:59 - DEBUG - The malicious clients: [2, 7, 5, 0]
+11-24 05:31:59 - DEBUG - ::FIND end
+11-24 05:31:59 - INFO - Group 0 training average loss: 1.236
+11-24 05:31:59 - INFO - Group 0 testing accuracy: 73.24%, loss: 0.823
+11-24 05:32:01 - INFO - Group 0 attack accuracy: 54.83%
+11-24 05:32:01 - INFO - ----- Group  0 Round  18 -----
+11-24 05:32:01 - INFO - group 0 selected clients:[8, 7, 4, 2, 5, 6, 9, 0, 3, 1]
+11-24 05:32:04 - INFO - group 0 remaining_budget: [14.563167884358256, 14.563167884358256, 10.90721512818115, 7.250448087492767, 10.90721512818115, 10.90721512818115, 14.563167884358256, 7.250448087492767, 10.90721512818115, 7.250448087492767]
+11-24 05:32:04 - DEBUG - FIND begin::
+11-24 05:32:04 - DEBUG - cluster labels: [ 0 -1  0 -1 -1  0  0 -1  0  0]
+11-24 05:32:04 - DEBUG - The benign clients: [8, 4, 6, 9, 3, 1]
+11-24 05:32:04 - DEBUG - The malicious clients: [7, 2, 5, 0]
+11-24 05:32:04 - DEBUG - ::FIND end
+11-24 05:32:04 - INFO - Group 0 training average loss: 1.168
+11-24 05:32:04 - INFO - Group 0 testing accuracy: 74.06%, loss: 0.797
+11-24 05:32:06 - INFO - Group 0 attack accuracy: 61.71%
+11-24 05:32:06 - INFO - ----- Group  0 Round  19 -----
+11-24 05:32:06 - INFO - group 0 selected clients:[8, 5, 4, 6, 1, 3, 9, 2, 7, 0]
+11-24 05:32:08 - INFO - group 0 remaining_budget: [14.42004922840554, 10.783286879478569, 10.783286879478569, 10.783286879478569, 7.158061158101464, 10.783286879478569, 14.42004922840554, 7.158061158101464, 14.42004922840554, 7.158061158101464]
+11-24 05:32:08 - DEBUG - FIND begin::
+11-24 05:32:08 - DEBUG - cluster labels: [ 0 -1  0  0  0  0  0 -1  0  0]
+11-24 05:32:08 - DEBUG - The benign clients: [8, 4, 6, 1, 3, 9, 7, 0]
+11-24 05:32:08 - DEBUG - The malicious clients: [5, 2]
+11-24 05:32:08 - DEBUG - ::FIND end
+11-24 05:32:08 - INFO - Group 0 training average loss: 1.114
+11-24 05:32:09 - INFO - Group 0 testing accuracy: 72.94%, loss: 0.873
+11-24 05:32:10 - INFO - Group 0 attack accuracy: 72.94%
+11-24 05:32:10 - INFO - ----- Group  0 Round  20 -----
+11-24 05:32:10 - INFO - group 0 selected clients:[9, 2, 3, 6, 4, 7, 0, 5, 1, 8]
+11-24 05:32:13 - INFO - group 0 remaining_budget: [14.252422401947031, 7.085425962216517, 10.641817829105744, 10.641817829105744, 10.641817829105744, 14.252422401947031, 7.085425962216517, 10.641817829105744, 7.085425962216517, 14.252422401947031]
+11-24 05:32:13 - DEBUG - FIND begin::
+11-24 05:32:13 - DEBUG - cluster labels: [ 0 -1  0  0 -1 -1  0  0  0 -1]
+11-24 05:32:13 - DEBUG - The benign clients: [9, 3, 6, 0, 5, 1]
+11-24 05:32:13 - DEBUG - The malicious clients: [2, 4, 7, 8]
+11-24 05:32:13 - DEBUG - ::FIND end
+11-24 05:32:13 - INFO - Group 0 training average loss: 1.081
+11-24 05:32:13 - INFO - Group 0 testing accuracy: 73.37%, loss: 0.850
+11-24 05:32:15 - INFO - Group 0 attack accuracy: 70.93%
+11-24 05:32:15 - INFO - ----- Group  0 Round  21 -----
+11-24 05:32:15 - INFO - group 0 selected clients:[0, 3, 6, 4, 1, 8, 7, 9, 2, 5]
+11-24 05:32:17 - INFO - group 0 remaining_budget: [6.9902040036204784, 10.514409825939367, 10.514409825939367, 10.514409825939367, 6.9902040036204784, 14.082939703630048, 14.082939703630048, 14.082939703630048, 6.9902040036204784, 10.514409825939367]
+11-24 05:32:17 - DEBUG - FIND begin::
+11-24 05:32:17 - DEBUG - cluster labels: [ 0  0  0 -1  0  0  0  0 -1  0]
+11-24 05:32:17 - DEBUG - The benign clients: [0, 3, 6, 1, 8, 7, 9, 5]
+11-24 05:32:17 - DEBUG - The malicious clients: [4, 2]
+11-24 05:32:17 - DEBUG - ::FIND end
+11-24 05:32:17 - INFO - Group 0 training average loss: 1.009
+11-24 05:32:18 - INFO - Group 0 testing accuracy: 76.28%, loss: 0.731
+11-24 05:32:19 - INFO - Group 0 attack accuracy: 55.17%
+11-24 05:32:19 - INFO - ----- Group  0 Round  22 -----
+11-24 05:32:19 - INFO - group 0 selected clients:[6, 5, 1, 8, 2, 7, 3, 4, 0, 9]
+11-24 05:32:22 - INFO - group 0 remaining_budget: [10.371642615273963, 10.371642615273963, 6.884982152963797, 13.894050336502044, 6.884982152963797, 13.894050336502044, 10.371642615273963, 10.371642615273963, 6.884982152963797, 13.894050336502044]
+11-24 05:32:22 - DEBUG - FIND begin::
+11-24 05:32:22 - DEBUG - cluster labels: [ 0 -1  0  0 -1 -1  0 -1  0  0]
+11-24 05:32:22 - DEBUG - The benign clients: [6, 1, 8, 3, 0, 9]
+11-24 05:32:22 - DEBUG - The malicious clients: [5, 2, 7, 4]
+11-24 05:32:22 - DEBUG - ::FIND end
+11-24 05:32:22 - INFO - Group 0 training average loss: 1.079
+11-24 05:32:22 - INFO - Group 0 testing accuracy: 76.37%, loss: 0.736
+11-24 05:32:23 - INFO - Group 0 attack accuracy: 62.10%
+11-24 05:32:23 - INFO - ----- Group  0 Round  23 -----
+11-24 05:32:23 - INFO - group 0 selected clients:[2, 5, 0, 9, 8, 1, 7, 4, 3, 6]
+11-24 05:32:26 - INFO - group 0 remaining_budget: [6.789211369032199, 10.233263116566578, 6.789211369032199, 13.705752982051594, 13.705752982051594, 6.789211369032199, 13.705752982051594, 10.233263116566578, 10.233263116566578, 10.233263116566578]
+11-24 05:32:26 - DEBUG - FIND begin::
+11-24 05:32:26 - DEBUG - cluster labels: [-1  0 -1 -1  0  0  0 -1  0  0]
+11-24 05:32:26 - DEBUG - The benign clients: [5, 8, 1, 7, 3, 6]
+11-24 05:32:26 - DEBUG - The malicious clients: [2, 0, 9, 4]
+11-24 05:32:26 - DEBUG - ::FIND end
+11-24 05:32:26 - INFO - Group 0 training average loss: 1.080
+11-24 05:32:27 - INFO - Group 0 testing accuracy: 77.34%, loss: 0.723
+11-24 05:32:28 - INFO - Group 0 attack accuracy: 53.32%
+11-24 05:32:28 - INFO - ----- Group  0 Round  24 -----
+11-24 05:32:28 - INFO - group 0 selected clients:[0, 7, 5, 9, 2, 6, 4, 3, 8, 1]
+11-24 05:32:31 - INFO - group 0 remaining_budget: [6.684456839356832, 13.509943293193727, 10.07359092066672, 13.509943293193727, 6.684456839356832, 10.07359092066672, 10.07359092066672, 10.07359092066672, 13.509943293193727, 6.684456839356832]
+11-24 05:32:31 - DEBUG - FIND begin::
+11-24 05:32:31 - DEBUG - cluster labels: [ 0  0  0 -1 -1  0 -1  0  0 -1]
+11-24 05:32:31 - DEBUG - The benign clients: [0, 7, 5, 6, 3, 8]
+11-24 05:32:31 - DEBUG - The malicious clients: [9, 2, 4, 1]
+11-24 05:32:31 - DEBUG - ::FIND end
+11-24 05:32:31 - INFO - Group 0 training average loss: 1.163
+11-24 05:32:31 - INFO - Group 0 testing accuracy: 73.65%, loss: 0.917
+11-24 05:32:33 - INFO - Group 0 attack accuracy: 73.31%
+11-24 05:32:33 - INFO - ----- Group  0 Round  25 -----
+11-24 05:32:33 - INFO - group 0 selected clients:[0, 9, 2, 8, 1, 7, 3, 5, 4, 6]
+11-24 05:32:36 - INFO - group 0 remaining_budget: [6.571874765259183, 13.307751708960955, 6.571874765259183, 13.307751708960955, 6.571874765259183, 13.307751708960955, 9.919576554035816, 9.919576554035816, 9.919576554035816, 9.919576554035816]
+11-24 05:32:36 - DEBUG - FIND begin::
+11-24 05:32:36 - DEBUG - cluster labels: [-1  0 -1  0 -1  0  0  0 -1  0]
+11-24 05:32:36 - DEBUG - The benign clients: [9, 8, 7, 3, 5, 6]
+11-24 05:32:36 - DEBUG - The malicious clients: [0, 2, 1, 4]
+11-24 05:32:36 - DEBUG - ::FIND end
+11-24 05:32:36 - INFO - Group 0 training average loss: 1.132
+11-24 05:32:36 - INFO - Group 0 testing accuracy: 76.58%, loss: 0.742
+11-24 05:32:37 - INFO - Group 0 attack accuracy: 64.20%
+11-24 05:32:37 - INFO - ----- Group  0 Round  26 -----
+11-24 05:32:37 - INFO - group 0 selected clients:[5, 6, 9, 2, 7, 3, 4, 8, 1, 0]
+11-24 05:32:41 - INFO - group 0 remaining_budget: [9.755183078196707, 9.755183078196707, 13.092586368986133, 6.460427596363271, 13.092586368986133, 9.755183078196707, 9.755183078196707, 13.092586368986133, 6.460427596363271, 6.460427596363271]
+11-24 05:32:41 - DEBUG - FIND begin::
+11-24 05:32:41 - DEBUG - cluster labels: [ 0  0  0 -1  0  0 -1  0  0 -1]
+11-24 05:32:41 - DEBUG - The benign clients: [5, 6, 9, 7, 3, 8, 1]
+11-24 05:32:41 - DEBUG - The malicious clients: [2, 4, 0]
+11-24 05:32:41 - DEBUG - ::FIND end
+11-24 05:32:41 - INFO - Group 0 training average loss: 1.063
+11-24 05:32:41 - INFO - Group 0 testing accuracy: 77.81%, loss: 0.718
+11-24 05:32:42 - INFO - Group 0 attack accuracy: 50.62%
+11-24 05:32:42 - INFO - ----- Group  0 Round  27 -----
+11-24 05:32:42 - INFO - group 0 selected clients:[3, 8, 7, 9, 0, 5, 6, 4, 1, 2]
+11-24 05:32:46 - INFO - group 0 remaining_budget: [9.58917240171981, 12.85890489009909, 12.85890489009909, 12.85890489009909, 6.350051350154647, 9.58917240171981, 9.58917240171981, 9.58917240171981, 6.350051350154647, 6.350051350154647]
+11-24 05:32:46 - DEBUG - FIND begin::
+11-24 05:32:46 - DEBUG - cluster labels: [ 0  0  0  0 -1  0  0 -1  0 -1]
+11-24 05:32:46 - DEBUG - The benign clients: [3, 8, 7, 9, 5, 6, 1]
+11-24 05:32:46 - DEBUG - The malicious clients: [0, 4, 2]
+11-24 05:32:46 - DEBUG - ::FIND end
+11-24 05:32:46 - INFO - Group 0 training average loss: 1.196
+11-24 05:32:46 - INFO - Group 0 testing accuracy: 78.19%, loss: 0.708
+11-24 05:32:47 - INFO - Group 0 attack accuracy: 50.65%
+11-24 05:32:47 - INFO - ----- Group  0 Round  28 -----
+11-24 05:32:47 - INFO - group 0 selected clients:[5, 9, 1, 0, 8, 2, 7, 3, 6, 4]
+11-24 05:32:51 - INFO - group 0 remaining_budget: [9.414682519420579, 12.629942322755412, 6.218513640687033, 6.218513640687033, 12.629942322755412, 6.218513640687033, 12.629942322755412, 9.414682519420579, 9.414682519420579, 9.414682519420579]
+11-24 05:32:51 - DEBUG - FIND begin::
+11-24 05:32:51 - DEBUG - cluster labels: [ 0  0  0 -1  0 -1 -1  0  0 -1]
+11-24 05:32:51 - DEBUG - The benign clients: [5, 9, 1, 8, 3, 6]
+11-24 05:32:51 - DEBUG - The malicious clients: [0, 2, 7, 4]
+11-24 05:32:51 - DEBUG - ::FIND end
+11-24 05:32:51 - INFO - Group 0 training average loss: 1.238
+11-24 05:32:51 - INFO - Group 0 testing accuracy: 77.56%, loss: 0.733
+11-24 05:32:52 - INFO - Group 0 attack accuracy: 61.04%
+11-24 05:32:52 - INFO - ----- Group  0 Round  29 -----
+11-24 05:32:52 - INFO - group 0 selected clients:[6, 0, 9, 3, 8, 7, 5, 1, 2, 4]
+11-24 05:32:56 - INFO - group 0 remaining_budget: [9.22585237065008, 6.096650082756343, 12.385208144396099, 9.22585237065008, 12.385208144396099, 12.385208144396099, 9.22585237065008, 6.096650082756343, 6.096650082756343, 9.22585237065008]
+11-24 05:32:56 - DEBUG - FIND begin::
+11-24 05:32:56 - DEBUG - cluster labels: [ 0 -1  0  0  0  0  0  0 -1 -1]
+11-24 05:32:56 - DEBUG - The benign clients: [6, 9, 3, 8, 7, 5, 1]
+11-24 05:32:56 - DEBUG - The malicious clients: [0, 2, 4]
+11-24 05:32:56 - DEBUG - ::FIND end
+11-24 05:32:56 - INFO - Group 0 training average loss: 1.186
+11-24 05:32:56 - INFO - Group 0 testing accuracy: 76.82%, loss: 0.769
+11-24 05:32:57 - INFO - Group 0 attack accuracy: 65.91%
+11-24 05:32:57 - INFO - ----- Group  0 Round  30 -----
+11-24 05:32:57 - INFO - group 0 selected clients:[8, 6, 1, 0, 2, 7, 4, 9, 5, 3]
+11-24 05:33:01 - INFO - group 0 remaining_budget: [12.146015480398125, 9.024317352110774, 5.955996107070403, 5.955996107070403, 5.955996107070403, 12.146015480398125, 9.024317352110774, 12.146015480398125, 9.024317352110774, 9.024317352110774]
+11-24 05:33:01 - DEBUG - FIND begin::
+11-24 05:33:01 - DEBUG - cluster labels: [ 0 -1  0 -1 -1  0 -1  0  0  0]
+11-24 05:33:01 - DEBUG - The benign clients: [8, 1, 7, 9, 5, 3]
+11-24 05:33:01 - DEBUG - The malicious clients: [6, 0, 2, 4]
+11-24 05:33:01 - DEBUG - ::FIND end
+11-24 05:33:01 - INFO - Group 0 training average loss: 1.145
+11-24 05:33:02 - INFO - Group 0 testing accuracy: 79.03%, loss: 0.680
+11-24 05:33:03 - INFO - Group 0 attack accuracy: 51.68%
+11-24 05:33:03 - INFO - ----- Group  0 Round  31 -----
+11-24 05:33:03 - INFO - group 0 selected clients:[6, 4, 1, 8, 3, 5, 7, 2, 9, 0]
+11-24 05:33:07 - INFO - group 0 remaining_budget: [8.83079163177931, 8.83079163177931, 5.825109165933232, 11.880713865834801, 8.83079163177931, 8.83079163177931, 11.880713865834801, 5.825109165933232, 11.880713865834801, 5.825109165933232]
+11-24 05:33:07 - DEBUG - FIND begin::
+11-24 05:33:07 - DEBUG - cluster labels: [-1 -1  0  0  0  0  0 -1  0 -1]
+11-24 05:33:07 - DEBUG - The benign clients: [1, 8, 3, 5, 7, 9]
+11-24 05:33:07 - DEBUG - The malicious clients: [6, 4, 2, 0]
+11-24 05:33:07 - DEBUG - ::FIND end
+11-24 05:33:07 - INFO - Group 0 training average loss: 1.233
+11-24 05:33:07 - INFO - Group 0 testing accuracy: 78.24%, loss: 0.728
+11-24 05:33:09 - INFO - Group 0 attack accuracy: 41.10%
+11-24 05:33:09 - INFO - ----- Group  0 Round  32 -----
+11-24 05:33:09 - INFO - group 0 selected clients:[7, 6, 4, 3, 0, 8, 9, 2, 5, 1]
+11-24 05:33:13 - INFO - group 0 remaining_budget: [11.604218385129787, 8.619741513271792, 8.619741513271792, 8.619741513271792, 5.683798006093612, 11.604218385129787, 11.604218385129787, 5.683798006093612, 8.619741513271792, 5.683798006093612]
+11-24 05:33:13 - DEBUG - FIND begin::
+11-24 05:33:13 - DEBUG - cluster labels: [ 0 -1 -1  0 -1  0  0 -1  0  0]
+11-24 05:33:13 - DEBUG - The benign clients: [7, 3, 8, 9, 5, 1]
+11-24 05:33:13 - DEBUG - The malicious clients: [6, 4, 0, 2]
+11-24 05:33:13 - DEBUG - ::FIND end
+11-24 05:33:13 - INFO - Group 0 training average loss: 1.379
+11-24 05:33:13 - INFO - Group 0 testing accuracy: 79.32%, loss: 0.693
+11-24 05:33:14 - INFO - Group 0 attack accuracy: 41.08%
+11-24 05:33:14 - INFO - ----- Group  0 Round  33 -----
+11-24 05:33:14 - INFO - group 0 selected clients:[9, 6, 1, 2, 4, 5, 3, 7, 0, 8]
+11-24 05:33:18 - INFO - group 0 remaining_budget: [11.32366622828309, 8.41102586832371, 5.545575202487164, 5.545575202487164, 8.41102586832371, 8.41102586832371, 8.41102586832371, 11.32366622828309, 5.545575202487164, 11.32366622828309]
+11-24 05:33:18 - DEBUG - FIND begin::
+11-24 05:33:18 - DEBUG - cluster labels: [ 0  0  0 -1 -1  0  0  0 -1  0]
+11-24 05:33:18 - DEBUG - The benign clients: [9, 6, 1, 5, 3, 7, 8]
+11-24 05:33:18 - DEBUG - The malicious clients: [2, 4, 0]
+11-24 05:33:18 - DEBUG - ::FIND end
+11-24 05:33:18 - INFO - Group 0 training average loss: 1.368
+11-24 05:33:19 - INFO - Group 0 testing accuracy: 77.37%, loss: 0.770
+11-24 05:33:20 - INFO - Group 0 attack accuracy: 59.94%
+11-24 05:33:20 - INFO - ----- Group  0 Round  34 -----
+11-24 05:33:20 - INFO - group 0 selected clients:[4, 7, 9, 5, 3, 0, 8, 6, 1, 2]
+11-24 05:33:25 - INFO - group 0 remaining_budget: [8.192901090214976, 11.033988561826451, 11.033988561826451, 8.192901090214976, 8.192901090214976, 5.39814330151218, 11.033988561826451, 8.192901090214976, 5.39814330151218, 5.39814330151218]
+11-24 05:33:25 - DEBUG - FIND begin::
+11-24 05:33:25 - DEBUG - cluster labels: [-1  0  0  0  0 -1  0  0  0 -1]
+11-24 05:33:25 - DEBUG - The benign clients: [7, 9, 5, 3, 8, 6, 1]
+11-24 05:33:25 - DEBUG - The malicious clients: [4, 0, 2]
+11-24 05:33:25 - DEBUG - ::FIND end
+11-24 05:33:25 - INFO - Group 0 training average loss: 1.314
+11-24 05:33:25 - INFO - Group 0 testing accuracy: 76.00%, loss: 0.859
+11-24 05:33:27 - INFO - Group 0 attack accuracy: 67.88%
+11-24 05:33:27 - INFO - ----- Group  0 Round  35 -----
+11-24 05:33:27 - INFO - group 0 selected clients:[0, 4, 9, 3, 1, 5, 8, 2, 6, 7]
+11-24 05:33:31 - INFO - group 0 remaining_budget: [5.242394525703585, 7.9607129418105576, 10.736231819711453, 7.9607129418105576, 5.242394525703585, 7.9607129418105576, 10.736231819711453, 5.242394525703585, 7.9607129418105576, 10.736231819711453]
+11-24 05:33:31 - DEBUG - FIND begin::
+11-24 05:33:31 - DEBUG - cluster labels: [-1 -1  0  0  0  0 -1 -1  0  0]
+11-24 05:33:31 - DEBUG - The benign clients: [9, 3, 1, 5, 6, 7]
+11-24 05:33:31 - DEBUG - The malicious clients: [0, 4, 8, 2]
+11-24 05:33:31 - DEBUG - ::FIND end
+11-24 05:33:31 - INFO - Group 0 training average loss: 1.213
+11-24 05:33:31 - INFO - Group 0 testing accuracy: 78.91%, loss: 0.689
+11-24 05:33:33 - INFO - Group 0 attack accuracy: 68.10%
+11-24 05:33:33 - INFO - ----- Group  0 Round  36 -----
+11-24 05:33:33 - INFO - group 0 selected clients:[0, 1, 2, 5, 8, 7, 3, 4, 9, 6]
+11-24 05:33:37 - INFO - group 0 remaining_budget: [5.08480640342983, 5.08480640342983, 5.08480640342983, 7.726792530546268, 10.404807680711567, 10.404807680711567, 7.726792530546268, 7.726792530546268, 10.404807680711567, 7.726792530546268]
+11-24 05:33:37 - DEBUG - FIND begin::
+11-24 05:33:37 - DEBUG - cluster labels: [-1  0 -1  0 -1  0  0 -1  0  0]
+11-24 05:33:37 - DEBUG - The benign clients: [1, 5, 7, 3, 9, 6]
+11-24 05:33:37 - DEBUG - The malicious clients: [0, 2, 8, 4]
+11-24 05:33:37 - DEBUG - ::FIND end
+11-24 05:33:37 - INFO - Group 0 training average loss: 1.041
+11-24 05:33:38 - INFO - Group 0 testing accuracy: 80.38%, loss: 0.646
+11-24 05:33:39 - INFO - Group 0 attack accuracy: 63.06%
+11-24 05:33:39 - INFO - ----- Group  0 Round  37 -----
+11-24 05:33:39 - INFO - group 0 selected clients:[5, 9, 0, 1, 4, 3, 6, 2, 8, 7]
+11-24 05:33:44 - INFO - group 0 remaining_budget: [7.491413264584686, 10.068653259862966, 4.920080435429114, 4.920080435429114, 7.491413264584686, 7.491413264584686, 7.491413264584686, 4.920080435429114, 10.068653259862966, 10.068653259862966]
+11-24 05:33:44 - DEBUG - FIND begin::
+11-24 05:33:44 - DEBUG - cluster labels: [ 0  0 -1  0 -1  0  0 -1 -1  0]
+11-24 05:33:44 - DEBUG - The benign clients: [5, 9, 1, 3, 6, 7]
+11-24 05:33:44 - DEBUG - The malicious clients: [0, 4, 2, 8]
+11-24 05:33:44 - DEBUG - ::FIND end
+11-24 05:33:44 - INFO - Group 0 training average loss: 1.060
+11-24 05:33:45 - INFO - Group 0 testing accuracy: 80.49%, loss: 0.648
+11-24 05:33:46 - INFO - Group 0 attack accuracy: 64.55%
+11-24 05:33:46 - INFO - ----- Group  0 Round  38 -----
+11-24 05:33:46 - INFO - group 0 selected clients:[7, 6, 8, 3, 2, 9, 5, 0, 1, 4]
+11-24 05:33:51 - INFO - group 0 remaining_budget: [9.758342904382832, 7.234187417923316, 9.758342904382832, 7.234187417923316, 4.759608010834445, 9.758342904382832, 7.234187417923316, 4.759608010834445, 4.759608010834445, 7.234187417923316]
+11-24 05:33:51 - DEBUG - FIND begin::
+11-24 05:33:51 - DEBUG - cluster labels: [ 0  0 -1  0 -1  0  0 -1  0 -1]
+11-24 05:33:51 - DEBUG - The benign clients: [7, 6, 3, 9, 5, 1]
+11-24 05:33:51 - DEBUG - The malicious clients: [8, 2, 0, 4]
+11-24 05:33:51 - DEBUG - ::FIND end
+11-24 05:33:51 - INFO - Group 0 training average loss: 1.040
+11-24 05:33:52 - INFO - Group 0 testing accuracy: 80.40%, loss: 0.657
+11-24 05:33:53 - INFO - Group 0 attack accuracy: 70.65%
+11-24 05:33:53 - INFO - ----- Group  0 Round  39 -----
+11-24 05:33:53 - INFO - group 0 selected clients:[7, 0, 2, 8, 6, 3, 1, 5, 4, 9]
+11-24 05:33:59 - INFO - group 0 remaining_budget: [9.413646109626477, 4.582230215622184, 4.582230215622184, 9.413646109626477, 6.977123202154396, 6.977123202154396, 4.582230215622184, 6.977123202154396, 6.977123202154396, 9.413646109626477]
+11-24 05:33:59 - DEBUG - FIND begin::
+11-24 05:33:59 - DEBUG - cluster labels: [ 0 -1 -1 -1  0  0  0  0 -1  0]
+11-24 05:33:59 - DEBUG - The benign clients: [7, 6, 3, 1, 5, 9]
+11-24 05:33:59 - DEBUG - The malicious clients: [0, 2, 8, 4]
+11-24 05:33:59 - DEBUG - ::FIND end
+11-24 05:33:59 - INFO - Group 0 training average loss: 1.003
+11-24 05:33:59 - INFO - Group 0 testing accuracy: 79.49%, loss: 0.700
+11-24 05:34:01 - INFO - Group 0 attack accuracy: 73.50%
+11-24 05:34:01 - DEBUG - Group 0 Main Accuracy:[10.0, 10.0, 30.16, 48.45, 58.01, 45.56, 45.48, 61.63, 68.33, 69.64, 62.11, 63.91, 70.52, 72.15, 72.86, 70.91, 72.68, 73.24, 74.06, 72.94, 73.37, 76.28, 76.37, 77.34, 73.65, 76.58, 77.81, 78.19, 77.56, 76.82, 79.03, 78.24, 79.32, 77.37, 76.0, 78.91, 80.38, 80.49, 80.4, 79.49]
+11-24 05:34:01 - DEBUG - Group 0 Attacker Accuracy:[90.0, 90.0, 83.61, 0.05, 1.78, 57.02, 60.85, 35.14, 7.38, 8.61, 47.67, 51.0, 34.07, 15.06, 21.67, 43.7, 44.48, 54.83, 61.71, 72.94, 70.93, 55.17, 62.1, 53.32, 73.31, 64.2, 50.62, 50.65, 61.04, 65.91, 51.68, 41.1, 41.08, 59.94, 67.88, 68.1, 63.06, 64.55, 70.65, 73.5]
+11-24 05:34:01 - DEBUG - Group 0 Privacy Cost:[1.4434109944923046, 0, 0, 0, 0.09743779423806842, 0.12456425606227128, 0.40886753978014756, 0.3090946159317358, 0.4931473290840396, 0.5261917774743194, 0.5304164367263136, 0.6364857321899526, 0.634167567559313, 0.6930248633559533, 0.6956646287603885, 0.8562096924682319, 0.8498145322347348, 0.9149429057742768, 0.9212600631530368, 0.9689745659194227, 1.0775382835020029, 1.094726571206813, 1.2088001638072523, 1.1660731144339804, 1.287180898100826, 1.2962055518176658, 1.347620047915278, 1.3985377830533636, 1.4450359002265403, 1.5459528477962285, 1.5903638708258345, 1.645911381402139, 1.7514823953232765, 1.7570690177809674, 1.8119498273970684, 1.906481871242983, 2.0331890048618266, 2.0434419623644633, 2.0015169562569985, 2.1690593330666994]
+11-24 05:34:01 - DEBUG - Group 0 Remaining Budget:[120.0, 118.55658900550769, 118.55658900550769, 118.55658900550769, 118.55658900550769, 118.45915121126963, 118.33458695520736, 117.92571941542721, 117.61662479949547, 117.12347747041143, 116.5972856929371, 116.0668692562108, 115.43038352402084, 114.79621595646154, 114.10319109310558, 113.4075264643452, 112.55131677187696, 111.70150223964222, 110.78655933386796, 109.86529927071491, 108.89632470479549, 107.81878642129348, 106.72405985008668, 105.51525968627942, 104.34918657184544, 103.06200567374461, 101.76580012192696, 100.41818007401167, 99.0196422909583, 97.57460639073177, 96.02865354293554, 94.4382896721097, 92.79237829070756, 91.0408958953843, 89.28382687760332, 87.47187705020625, 85.56539517896327, 83.53220617410145, 81.48876421173699, 79.48724725547999, 77.31818792241329]
+11-24 05:34:01 - INFO - Grouped global model testing accuracy: 79.49%, loss: 0.700
+11-24 05:34:01 - INFO - ________Begin Recover Group 0________
+11-24 05:34:01 - DEBUG - train_loss: True
+11-24 05:34:01 - DEBUG - remaining_budgets: False
+11-24 05:34:01 - DEBUG - The rounds in window: [0, 1, 2, 3, 4, 5, 6]
+11-24 05:34:01 - DEBUG - KL Divergence between global models in window: [0.12279967218637466, 0.1445506066083908, 0.1235739141702652, 0.061531491577625275, 0.08269036561250687, 0.042421791702508926, 0.035730745643377304]
+11-24 05:34:01 - DEBUG - Privacy Costs in window: [1.4434109944923046, 0, 0, 0, 0.09743779423806842, 0.12456425606227128, 0.40886753978014756]
+11-24 05:34:01 - DEBUG - Final scores in window: [0.29935476 0.18855495 0.1611925  0.08026301 0.11725796 0.06734626
+ 0.08603055]
+11-24 05:34:01 - DEBUG - This time choose: [0, 1, 2]
+11-24 05:34:01 - DEBUG - The old clients in round 0: [0, 2, 1, 4, 5, 7, 8, 6, 3, 9]
+11-24 05:34:01 - DEBUG - The aggregated clients in round 0: [2, 1, 4, 8, 6, 9]
+11-24 05:34:01 - DEBUG - The similarity: [0.8718225210905075, 0.8608970791101456, 0.8938058167695999, 0.8911331444978714, 0.8916685730218887, 0.9024163782596588]
+11-24 05:34:01 - DEBUG - The privacy budgets: [7.847843232618794, 7.847843232618794, 11.848269631495336, 15.84861097496508, 11.848269631495336, 15.84861097496508]
+11-24 05:34:01 - DEBUG - The final scores: [0.1533837  0.15173822 0.16794922 0.17880108 0.16762733 0.18050045]
+11-24 05:34:01 - DEBUG - Round 0 choose: [9, 8, 4, 6, 2]
+11-24 05:34:01 - DEBUG - The old clients in round 1: [6, 8, 5, 7, 3, 0, 1, 9, 4, 2]
+11-24 05:34:01 - DEBUG - The aggregated clients in round 1: [6, 8, 0, 1, 9, 4]
+11-24 05:34:01 - DEBUG - The similarity: [0.8950167745351791, 0.8980659395456314, 0.866357684135437, 0.8718721121549606, 0.906709760427475, 0.8967978954315186]
+11-24 05:34:01 - DEBUG - The privacy budgets: [11.907179310644164, 15.907531902264113, 7.906739296814633, 7.906739296814633, 15.907531902264113, 11.907179310644164]
+11-24 05:34:01 - DEBUG - The final scores: [0.16754851 0.1792045  0.15205186 0.1528788  0.18050071 0.16781561]
+11-24 05:34:01 - DEBUG - Round 1 choose: [9, 8, 4, 6, 1]
+11-24 05:34:01 - DEBUG - The old clients in round 2: [5, 8, 9, 0, 7, 3, 4, 1, 6, 2]
+11-24 05:34:01 - DEBUG - The aggregated clients in round 2: [8, 9, 0, 4, 6, 2]
+11-24 05:34:01 - DEBUG - The similarity: [0.9243213534355164, 0.9267864227294922, 0.9000353515148163, 0.9164705723524094, 0.9231716990470886, 0.8988087475299835]
+11-24 05:34:01 - DEBUG - The privacy budgets: [15.933734265340311, 15.933734265340311, 7.932971671331357, 11.93339487653057, 11.93339487653057, 7.932971671331357]
+11-24 05:34:01 - DEBUG - The final scores: [0.17920911 0.17956834 0.15332147 0.16689091 0.16786747 0.15314271]
+11-24 05:34:01 - DEBUG - Round 2 choose: [9, 8, 6, 4, 0]
+11-24 05:34:01 - DEBUG - train_loss: True
+11-24 05:34:01 - DEBUG - remaining_budgets: False
+11-24 05:34:01 - DEBUG - The rounds in window: [7, 8, 9, 10, 11, 12, 13]
+11-24 05:34:01 - DEBUG - KL Divergence between global models in window: [0.039992060512304306, 0.03869609162211418, 0.029180636629462242, 0.021800104528665543, 0.015847474336624146, 0.013992838561534882, 0.015037144534289837]
+11-24 05:34:01 - DEBUG - Privacy Costs in window: [0.3090946159317358, 0.4931473290840396, 0.5261917774743194, 0.5304164367263136, 0.6364857321899526, 0.634167567559313, 0.6930248633559533]
+11-24 05:34:01 - DEBUG - Final scores in window: [0.19946826 0.20315833 0.16127498 0.12766876 0.1059357  0.09731404
+ 0.10517992]
+11-24 05:34:01 - DEBUG - This time choose: [7, 8, 9]
+11-24 05:34:01 - DEBUG - The old clients in round 7: [7, 4, 8, 2, 5, 3, 9, 6, 1, 0]
+11-24 05:34:01 - DEBUG - The aggregated clients in round 7: [8, 2, 5, 3, 6, 1, 0]
+11-24 05:34:01 - DEBUG - The similarity: [0.9816310107707977, 0.9668170064687729, 0.9750684797763824, 0.9739849716424942, 0.9779141843318939, 0.9740799963474274, 0.9713162183761597]
+11-24 05:34:01 - DEBUG - The privacy budgets: [15.758896078766933, 7.917771601919437, 11.837606306059309, 11.837606306059309, 11.837606306059309, 7.917771601919437, 7.917771601919437]
+11-24 05:34:01 - DEBUG - The final scores: [0.15714333 0.13450313 0.14592034 0.14579326 0.14625411 0.135355
+ 0.13503084]
+11-24 05:34:01 - DEBUG - Round 7 choose: [8, 6, 5, 3, 1, 0]
+11-24 05:34:01 - DEBUG - The old clients in round 8: [5, 0, 4, 2, 9, 3, 8, 1, 6, 7]
+11-24 05:34:01 - DEBUG - The aggregated clients in round 8: [5, 0, 2, 3, 8, 1]
+11-24 05:34:01 - DEBUG - The similarity: [0.9790358692407608, 0.9797872453927994, 0.9768097698688507, 0.9780119359493256, 0.983556792140007, 0.9749474972486496]
+11-24 05:34:01 - DEBUG - The privacy budgets: [11.782949760367595, 7.853301945517344, 7.853301945517344, 11.782949760367595, 15.68996169895935, 7.853301945517344]
+11-24 05:34:01 - DEBUG - The final scores: [0.17089615 0.15848685 0.15808121 0.17075665 0.18395165 0.1578275 ]
+11-24 05:34:01 - DEBUG - Round 8 choose: [8, 5, 3, 0, 2]
+11-24 05:34:01 - DEBUG - The old clients in round 9: [7, 8, 1, 5, 9, 3, 4, 2, 0, 6]
+11-24 05:34:01 - DEBUG - The aggregated clients in round 9: [8, 1, 9, 3, 2, 6]
+11-24 05:34:01 - DEBUG - The similarity: [0.9857509881258011, 0.9782381504774094, 0.9881982207298279, 0.9843573719263077, 0.9813665449619293, 0.9851772487163544]
+11-24 05:34:01 - DEBUG - The privacy budgets: [15.613571521313041, 7.823589573417838, 15.613571521313041, 11.717535415602644, 7.823589573417838, 11.717535415602644]
+11-24 05:34:01 - DEBUG - The final scores: [0.17800512 0.15482781 0.17833677 0.1667337  0.15525178 0.16684482]
+11-24 05:34:01 - DEBUG - Round 9 choose: [9, 8, 6, 3, 2]
+11-24 05:34:01 - DEBUG - train_loss: True
+11-24 05:34:01 - DEBUG - remaining_budgets: False
+11-24 05:34:01 - DEBUG - The rounds in window: [14, 15, 16, 17, 18, 19, 20, 21]
+11-24 05:34:01 - DEBUG - KL Divergence between global models in window: [0.013404947705566883, 0.012028608471155167, 0.007944842800498009, 0.009756868705153465, 0.008943088352680206, 0.006380787584930658, 0.008557640947401524, 0.005632248241454363]
+11-24 05:34:01 - DEBUG - Privacy Costs in window: [0.6956646287603885, 0.8562096924682319, 0.8498145322347348, 0.9149429057742768, 0.9212600631530368, 0.9689745659194227, 1.0775382835020029, 1.094726571206813]
+11-24 05:34:01 - DEBUG - Final scores in window: [0.16646815 0.15566344 0.11052031 0.13223926 0.12344925 0.09652682
+ 0.12344045 0.09169233]
+11-24 05:34:01 - DEBUG - This time choose: [14, 15, 17, 18]
+11-24 05:34:01 - DEBUG - The old clients in round 14: [9, 5, 3, 8, 2, 0, 6, 1, 7, 4]
+11-24 05:34:01 - DEBUG - The aggregated clients in round 14: [3, 8, 6, 1, 7, 4]
+11-24 05:34:01 - DEBUG - The similarity: [0.9893071055412292, 0.9898534864187241, 0.9914885610342026, 0.989440456032753, 0.9948274046182632, 0.9864290058612823]
+11-24 05:34:01 - DEBUG - The privacy budgets: [11.337154569214595, 15.120866144485618, 11.337154569214595, 7.5444204088380395, 15.120866144485618, 11.337154569214595]
+11-24 05:34:01 - DEBUG - The final scores: [0.16479069 0.1754042  0.16508443 0.15424358 0.17607394 0.16440316]
+11-24 05:34:01 - DEBUG - Round 14 choose: [7, 8, 6, 3, 4]
+11-24 05:34:01 - DEBUG - The old clients in round 15: [1, 4, 8, 2, 0, 7, 9, 6, 3, 5]
+11-24 05:34:01 - DEBUG - The aggregated clients in round 15: [1, 4, 8, 7, 6, 3]
+11-24 05:34:01 - DEBUG - The similarity: [0.9874733537435532, 0.9905895739793777, 0.9939169138669968, 0.9901384860277176, 0.989360898733139, 0.9897099435329437]
+11-24 05:34:01 - DEBUG - The privacy budgets: [7.477100128348802, 11.218171235424649, 14.99267020627232, 14.99267020627232, 11.218171235424649, 11.218171235424649]
+11-24 05:34:01 - DEBUG - The final scores: [0.15399404 0.16493455 0.17599749 0.17548871 0.1647691  0.1648161 ]
+11-24 05:34:01 - DEBUG - Round 15 choose: [8, 7, 4, 3, 6]
+11-24 05:34:01 - DEBUG - The old clients in round 17: [1, 9, 2, 7, 8, 3, 5, 6, 0, 4]
+11-24 05:34:01 - DEBUG - The aggregated clients in round 17: [1, 9, 8, 3, 6, 4]
+11-24 05:34:01 - DEBUG - The similarity: [0.9920244365930557, 0.9906519949436188, 0.995635136961937, 0.9952945858240128, 0.9950014650821686, 0.9925074130296707]
+11-24 05:34:01 - DEBUG - The privacy budgets: [7.329338702430807, 14.724008408204302, 14.724008408204302, 11.010355566198564, 11.010355566198564, 11.010355566198564]
+11-24 05:34:01 - DEBUG - The final scores: [0.15413117 0.1751326  0.17580135 0.16511609 0.16507675 0.16474204]
+11-24 05:34:01 - DEBUG - Round 17 choose: [8, 9, 3, 6, 4]
+11-24 05:34:01 - DEBUG - The old clients in round 18: [8, 7, 4, 2, 5, 6, 9, 0, 3, 1]
+11-24 05:34:01 - DEBUG - The aggregated clients in round 18: [8, 4, 6, 9, 3, 1]
+11-24 05:34:01 - DEBUG - The similarity: [0.99580979347229, 0.9915078431367874, 0.995235949754715, 0.9908077269792557, 0.9955051690340042, 0.9935730993747711]
+11-24 05:34:01 - DEBUG - The privacy budgets: [14.563167884358256, 10.90721512818115, 10.90721512818115, 14.563167884358256, 10.90721512818115, 7.250448087492767]
+11-24 05:34:01 - DEBUG - The final scores: [0.175763   0.16460393 0.16510414 0.17509186 0.16514026 0.1542968 ]
+11-24 05:34:01 - DEBUG - Round 18 choose: [8, 9, 3, 6, 4]
+11-24 05:34:01 - DEBUG - train_loss: False
+11-24 05:34:01 - DEBUG - remaining_budgets: True
+11-24 05:34:01 - DEBUG - The rounds in window: [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
+11-24 05:34:01 - DEBUG - KL Divergence between global models in window: [0.007177446503192186, 0.006243014708161354, 0.005883618723601103, 0.004927454516291618, 0.00434537511318922, 0.00416659377515316, 0.004775959067046642, 0.0038110262248665094, 0.004334392957389355, 0.0041434019804000854, 0.003974671009927988, 0.0033157786820083857, 0.003152759512886405, 0.003732705721631646, 0.0036004844587296247]
+11-24 05:34:01 - DEBUG - Privacy Costs in window: [1.2088001638072523, 1.1660731144339804, 1.287180898100826, 1.2962055518176658, 1.347620047915278, 1.3985377830533636, 1.4450359002265403, 1.5459528477962285, 1.5903638708258345, 1.645911381402139, 1.7514823953232765, 1.7570690177809674, 1.8119498273970684, 1.906481871242983, 2.0331890048618266]
+11-24 05:34:01 - DEBUG - Final scores in window: [0.0953838  0.08395446 0.08074469 0.0695044  0.06305771 0.06138057
+ 0.06899462 0.05844298 0.06502107 0.06323933 0.06215248 0.05440134
+ 0.05294496 0.06062501 0.06015259]
+11-24 05:34:01 - DEBUG - This time choose: [22, 23, 24, 25, 28, 30, 31]
+11-24 05:34:01 - DEBUG - The old clients in round 22: [6, 5, 1, 8, 2, 7, 3, 4, 0, 9]
+11-24 05:34:01 - DEBUG - The aggregated clients in round 22: [6, 1, 8, 3, 0, 9]
+11-24 05:34:01 - DEBUG - The similarity: [0.9971272945404053, 0.9930376708507538, 0.9950029999017715, 0.9922916889190674, 0.9952185451984406, 0.9887616336345673]
+11-24 05:34:01 - DEBUG - The privacy budgets: [10.371642615273963, 6.884982152963797, 13.894050336502044, 10.371642615273963, 6.884982152963797, 13.894050336502044]
+11-24 05:34:01 - DEBUG - The final scores: [0.16710534 0.15536365 0.17812792 0.16645643 0.15565631 0.17729035]
+11-24 05:34:01 - DEBUG - Round 22 choose: [8, 9, 6, 3, 0]
+11-24 05:34:01 - DEBUG - The old clients in round 23: [2, 5, 0, 9, 8, 1, 7, 4, 3, 6]
+11-24 05:34:01 - DEBUG - The aggregated clients in round 23: [5, 8, 1, 7, 3, 6]
+11-24 05:34:01 - DEBUG - The similarity: [0.9961560815572739, 0.9939021021127701, 0.9932117313146591, 0.9939146488904953, 0.9899439662694931, 0.9971292614936829]
+11-24 05:34:01 - DEBUG - The privacy budgets: [10.233263116566578, 13.705752982051594, 6.789211369032199, 13.705752982051594, 10.233263116566578, 10.233263116566578]
+11-24 05:34:01 - DEBUG - The final scores: [0.165152   0.17555064 0.15414374 0.17555232 0.16431876 0.16528254]
+11-24 05:34:01 - DEBUG - Round 23 choose: [7, 8, 6, 5, 3]
+11-24 05:34:01 - DEBUG - The old clients in round 24: [0, 7, 5, 9, 2, 6, 4, 3, 8, 1]
+11-24 05:34:01 - DEBUG - The aggregated clients in round 24: [0, 7, 5, 6, 3, 8]
+11-24 05:34:01 - DEBUG - The similarity: [0.9942441880702972, 0.9951828569173813, 0.9949788153171539, 0.9973143935203552, 0.9925027340650558, 0.9951832294464111]
+11-24 05:34:01 - DEBUG - The privacy budgets: [6.684456839356832, 13.509943293193727, 10.07359092066672, 10.07359092066672, 10.07359092066672, 13.509943293193727]
+11-24 05:34:01 - DEBUG - The final scores: [0.1541587  0.17563913 0.16486061 0.16517361 0.16452877 0.17563918]
+11-24 05:34:01 - DEBUG - Round 24 choose: [8, 7, 6, 5, 3]
+11-24 05:34:01 - DEBUG - The old clients in round 25: [0, 9, 2, 8, 1, 7, 3, 5, 4, 6]
+11-24 05:34:01 - DEBUG - The aggregated clients in round 25: [9, 8, 7, 3, 5, 6]
+11-24 05:34:01 - DEBUG - The similarity: [0.996576800942421, 0.9965867102146149, 0.9953135699033737, 0.9938841164112091, 0.9976172298192978, 0.9947948753833771]
+11-24 05:34:01 - DEBUG - The privacy budgets: [13.307751708960955, 13.307751708960955, 13.307751708960955, 9.919576554035816, 9.919576554035816, 9.919576554035816]
+11-24 05:34:01 - DEBUG - The final scores: [0.17163361 0.17163494 0.17146447 0.16154839 0.16204824 0.16167034]
+11-24 05:34:01 - DEBUG - Round 25 choose: [8, 9, 7, 5, 6]
+11-24 05:34:01 - DEBUG - The old clients in round 28: [5, 9, 1, 0, 8, 2, 7, 3, 6, 4]
+11-24 05:34:01 - DEBUG - The aggregated clients in round 28: [5, 9, 1, 8, 3, 6]
+11-24 05:34:01 - DEBUG - The similarity: [0.9940165281295776, 0.9967196434736252, 0.9962092041969299, 0.9979579299688339, 0.996559202671051, 0.9949800074100494]
+11-24 05:34:01 - DEBUG - The privacy budgets: [9.414682519420579, 12.629942322755412, 6.218513640687033, 12.629942322755412, 9.414682519420579, 9.414682519420579]
+11-24 05:34:01 - DEBUG - The final scores: [0.16458608 0.17571525 0.15417618 0.17588101 0.16492644 0.16471505]
+11-24 05:34:01 - DEBUG - Round 28 choose: [8, 9, 3, 6, 5]
+11-24 05:34:01 - DEBUG - The old clients in round 30: [8, 6, 1, 0, 2, 7, 4, 9, 5, 3]
+11-24 05:34:01 - DEBUG - The aggregated clients in round 30: [8, 1, 7, 9, 5, 3]
+11-24 05:34:01 - DEBUG - The similarity: [0.9992812871932983, 0.9925836622714996, 0.9967763423919678, 0.9980398267507553, 0.9991212636232376, 0.9954041540622711]
+11-24 05:34:01 - DEBUG - The privacy budgets: [12.146015480398125, 5.955996107070403, 12.146015480398125, 12.146015480398125, 9.024317352110774, 9.024317352110774]
+11-24 05:34:01 - DEBUG - The final scores: [0.17384635 0.15246824 0.1735113  0.1736803  0.16349549 0.16299832]
+11-24 05:34:01 - DEBUG - Round 30 choose: [8, 9, 7, 5, 3]
+11-24 05:34:01 - DEBUG - The old clients in round 31: [6, 4, 1, 8, 3, 5, 7, 2, 9, 0]
+11-24 05:34:01 - DEBUG - The aggregated clients in round 31: [1, 8, 3, 5, 7, 9]
+11-24 05:34:01 - DEBUG - The similarity: [0.9926394075155258, 0.9968163669109344, 0.9979398995637894, 0.9991660565137863, 0.9955544620752335, 0.9968222230672836]
+11-24 05:34:01 - DEBUG - The privacy budgets: [5.825109165933232, 11.880713865834801, 8.83079163177931, 8.83079163177931, 11.880713865834801, 11.880713865834801]
+11-24 05:34:01 - DEBUG - The final scores: [0.15252126 0.17356289 0.16339703 0.1635611  0.17339405 0.17356368]
+11-24 05:34:01 - DEBUG - Round 31 choose: [9, 8, 7, 5, 3]
+11-24 05:34:01 - DEBUG - train_loss: False
+11-24 05:34:01 - DEBUG - remaining_budgets: False
+11-24 05:34:01 - DEBUG - The rounds in window: [37, 38, 39]
+11-24 05:34:01 - DEBUG - KL Divergence between global models in window: [0.003426114097237587, 0.003297062823548913, 0.0031635924242436886]
+11-24 05:34:01 - DEBUG - Privacy Costs in window: [2.0434419623644633, 2.0015169562569985, 2.1690593330666994]
+11-24 05:34:01 - DEBUG - Final scores in window: [0.34299698 0.33120527 0.32579775]
+11-24 05:34:01 - DEBUG - This time choose: [37]
+11-24 05:34:01 - DEBUG - The old clients in round 37: [5, 9, 0, 1, 4, 3, 6, 2, 8, 7]
+11-24 05:34:01 - DEBUG - The aggregated clients in round 37: [5, 9, 1, 3, 6, 7]
+11-24 05:34:01 - DEBUG - The similarity: [0.9993411153554916, 0.9982136934995651, 0.9978804290294647, 0.998104065656662, 0.9966125041246414, 0.9969591796398163]
+11-24 05:34:01 - DEBUG - The privacy budgets: [7.491413264584686, 10.068653259862966, 4.920080435429114, 7.491413264584686, 7.491413264584686, 10.068653259862966]
+11-24 05:34:01 - DEBUG - The final scores: [0.16505414 0.17574781 0.1540395  0.16488884 0.16468954 0.17558018]
+11-24 05:34:01 - DEBUG - Round 37 choose: [9, 7, 5, 3, 6]
+11-24 05:34:01 - INFO - DIARY select rounds: [0, 1, 2, 7, 8, 9, 14, 15, 17, 18, 22, 23, 24, 25, 28, 30, 31, 37]
+11-24 05:34:01 - INFO - DIARY select clients: [[9, 8, 4, 6, 2], [9, 8, 4, 6, 1], [9, 8, 6, 4, 0], [8, 6, 5, 3, 1, 0], [8, 5, 3, 0, 2], [9, 8, 6, 3, 2], [7, 8, 6, 3, 4], [8, 7, 4, 3, 6], [8, 9, 3, 6, 4], [8, 9, 3, 6, 4], [8, 9, 6, 3, 0], [7, 8, 6, 5, 3], [8, 7, 6, 5, 3], [8, 9, 7, 5, 6], [8, 9, 3, 6, 5], [8, 9, 7, 5, 3], [9, 8, 7, 5, 3], [9, 7, 5, 3, 6]]
+11-24 05:34:01 - DEBUG - Selected Clients Counter: Counter({8: 16, 3: 14, 9: 11, 5: 9, 7: 8, 1: 2})
+11-24 05:34:42 - DEBUG - New Initial Noise noise_multiplier: [2.353515625, 2.763671875, 1.54296875, 2.4609375, 2.96875, 2.060546875]
+11-24 05:34:42 - INFO - ----- DIARY Recover Round   0  -----
+11-24 05:34:42 - INFO - remaining client:[9, 8]
+11-24 05:34:42 - INFO - remaining_budget: [9.413646109626477, 9.413646109626477]
+11-24 05:34:42 - INFO - Training average loss: 0.000
+11-24 05:34:43 - INFO - Testing accuracy: 16.89%, loss: 2.105
+11-24 05:34:44 - INFO - Attack accuracy: 9.40%
+11-24 05:34:44 - INFO - ----- DIARY Recover Round   1  -----
+11-24 05:34:44 - INFO - remaining client:[9, 8, 1]
+11-24 05:34:46 - INFO - remaining_budget: [8.714154818449419, 8.957760132716707, 2.396661247854083]
+11-24 05:34:46 - INFO - Training average loss: 2.029
+11-24 05:34:46 - INFO - Testing accuracy: 35.19%, loss: 3.180
+11-24 05:34:48 - INFO - Attack accuracy: 0.00%
+11-24 05:34:48 - INFO - ----- DIARY Recover Round   2  -----
+11-24 05:34:48 - INFO - remaining client:[9, 8]
+11-24 05:34:49 - INFO - remaining_budget: [7.928669667696299, 8.44155729616886]
+11-24 05:34:49 - INFO - Training average loss: 2.885
+11-24 05:34:49 - INFO - Testing accuracy: 19.39%, loss: 4.750
+11-24 05:34:50 - INFO - Attack accuracy: 0.00%
+11-24 05:34:50 - INFO - ----- DIARY Recover Round   3  -----
+11-24 05:34:50 - INFO - remaining client:[8, 5, 3, 1]
+11-24 05:34:52 - INFO - remaining_budget: [7.908695000586247, 6.3194434568338895, 6.569880592005048, 0.057005821608858476]
+11-24 05:34:52 - INFO - Training average loss: 4.202
+11-24 05:34:53 - INFO - Testing accuracy: 23.62%, loss: 3.161
+11-24 05:34:54 - INFO - Attack accuracy: 4.76%
+11-24 05:34:54 - INFO - ----- DIARY Recover Round   4  -----
+11-24 05:34:54 - INFO - remaining client:[8, 5, 3]
+11-24 05:34:56 - INFO - remaining_budget: [7.351609289148641, 5.595447929209163, 6.132784890070392]
+11-24 05:34:56 - INFO - Training average loss: 2.786
+11-24 05:34:56 - INFO - Testing accuracy: 33.59%, loss: 3.367
+11-24 05:34:57 - INFO - Attack accuracy: 0.12%
+11-24 05:34:57 - INFO - ----- DIARY Recover Round   5  -----
+11-24 05:34:57 - INFO - remaining client:[9, 8, 3]
+11-24 05:34:59 - INFO - remaining_budget: [7.112127559714269, 6.776395019296368, 5.6674085899334585]
+11-24 05:34:59 - INFO - Training average loss: 3.025
+11-24 05:34:59 - INFO - Testing accuracy: 39.56%, loss: 2.535
+11-24 05:35:01 - INFO - Attack accuracy: 0.00%
+11-24 05:35:01 - INFO - ----- DIARY Recover Round   6  -----
+11-24 05:35:01 - INFO - remaining client:[7, 8, 3]
+11-24 05:35:02 - INFO - remaining_budget: [8.426013297843518, 6.200831615000299, 5.198211548788504]
+11-24 05:35:02 - INFO - Training average loss: 2.453
+11-24 05:35:03 - INFO - Testing accuracy: 49.46%, loss: 2.087
+11-24 05:35:04 - INFO - Attack accuracy: 4.40%
+11-24 05:35:04 - INFO - ----- DIARY Recover Round   7  -----
+11-24 05:35:04 - INFO - remaining client:[8, 7, 3]
+11-24 05:35:06 - INFO - remaining_budget: [5.601130228669076, 7.319609933645149, 4.695095183676616]
+11-24 05:35:06 - INFO - Training average loss: 1.872
+11-24 05:35:06 - INFO - Testing accuracy: 58.85%, loss: 1.359
+11-24 05:35:08 - INFO - Attack accuracy: 12.00%
+11-24 05:35:08 - INFO - ----- DIARY Recover Round   8  -----
+11-24 05:35:08 - INFO - remaining client:[8, 9, 3]
+11-24 05:35:10 - INFO - remaining_budget: [5.002423864295039, 6.271433163256029, 4.19878672401756]
+11-24 05:35:10 - INFO - Training average loss: 1.330
+11-24 05:35:10 - INFO - Testing accuracy: 64.68%, loss: 1.023
+11-24 05:35:11 - INFO - Attack accuracy: 0.64%
+11-24 05:35:11 - INFO - ----- DIARY Recover Round   9  -----
+11-24 05:35:11 - INFO - remaining client:[8, 9, 3]
+11-24 05:35:14 - INFO - remaining_budget: [4.4122331082668556, 5.408793492824085, 3.6923426694226276]
+11-24 05:35:14 - INFO - Training average loss: 0.975
+11-24 05:35:14 - INFO - Testing accuracy: 64.08%, loss: 1.179
+11-24 05:35:15 - INFO - Attack accuracy: 0.08%
+11-24 05:35:15 - INFO - ----- DIARY Recover Round  10  -----
+11-24 05:35:15 - INFO - remaining client:[8, 9, 3]
+11-24 05:35:18 - INFO - remaining_budget: [3.800535935995237, 4.526248575563486, 3.2046186643271746]
+11-24 05:35:18 - INFO - Training average loss: 1.105
+11-24 05:35:18 - INFO - Testing accuracy: 64.50%, loss: 1.189
+11-24 05:35:19 - INFO - Attack accuracy: 8.49%
+11-24 05:35:19 - INFO - ----- DIARY Recover Round  11  -----
+11-24 05:35:19 - INFO - remaining client:[7, 8, 5, 3]
+11-24 05:35:22 - INFO - remaining_budget: [6.17058814944056, 3.194076757481673, 4.855884374457319, 2.675678678421443]
+11-24 05:35:22 - INFO - Training average loss: 1.120
+11-24 05:35:23 - INFO - Testing accuracy: 71.93%, loss: 0.947
+11-24 05:35:24 - INFO - Attack accuracy: 7.45%
+11-24 05:35:24 - INFO - ----- DIARY Recover Round  12  -----
+11-24 05:35:24 - INFO - remaining client:[8, 7, 5, 3]
+11-24 05:35:27 - INFO - remaining_budget: [2.5785085243890844, 4.974810600562645, 4.066866184191391, 2.169537947362125]
+11-24 05:35:27 - INFO - Training average loss: 0.933
+11-24 05:35:27 - INFO - Testing accuracy: 69.27%, loss: 1.106
+11-24 05:35:29 - INFO - Attack accuracy: 0.97%
+11-24 05:35:29 - INFO - ----- DIARY Recover Round  13  -----
+11-24 05:35:29 - INFO - remaining client:[8, 9, 7, 5]
+11-24 05:35:32 - INFO - remaining_budget: [1.9613603082205504, 3.641253147849236, 3.7779303431234563, 3.2799684712763035]
+11-24 05:35:32 - INFO - Training average loss: 1.095
+11-24 05:35:32 - INFO - Testing accuracy: 73.46%, loss: 0.969
+11-24 05:35:33 - INFO - Attack accuracy: 2.05%
+11-24 05:35:33 - INFO - ----- DIARY Recover Round  14  -----
+11-24 05:35:33 - INFO - remaining client:[8, 9, 3, 5]
+11-24 05:35:37 - INFO - remaining_budget: [1.3260489865600356, 2.750361046750898, 1.6399913534426638, 2.49100044954824]
+11-24 05:35:37 - INFO - Training average loss: 0.918
+11-24 05:35:37 - INFO - Testing accuracy: 73.75%, loss: 0.931
+11-24 05:35:39 - INFO - Attack accuracy: 3.76%
+11-24 05:35:39 - INFO - ----- DIARY Recover Round  15  -----
+11-24 05:35:39 - INFO - remaining client:[8, 9, 7, 5, 3]
+11-24 05:35:43 - INFO - remaining_budget: [0.7032836825939182, 1.8431214338381263, 2.55666167304091, 1.6801351956952253, 1.1250277850020094]
+11-24 05:35:43 - INFO - Training average loss: 0.885
+11-24 05:35:44 - INFO - Testing accuracy: 73.43%, loss: 0.970
+11-24 05:35:45 - INFO - Attack accuracy: 4.48%
+11-24 05:35:45 - INFO - ----- DIARY Recover Round  16  -----
+11-24 05:35:45 - INFO - remaining client:[9, 8, 7, 5, 3]
+11-24 05:35:50 - INFO - remaining_budget: [0.9425170946026817, 0.07307846707827714, 1.3174038185236654, 0.8650166226181835, 0.6024028779152122]
+11-24 05:35:50 - INFO - Training average loss: 0.897
+11-24 05:35:50 - INFO - Testing accuracy: 74.14%, loss: 0.928
+11-24 05:35:51 - INFO - Attack accuracy: 3.45%
+11-24 05:35:51 - INFO - ----- DIARY Recover Round  17  -----
+11-24 05:35:51 - INFO - remaining client:[9, 7, 5, 3]
+11-24 05:35:55 - INFO - remaining_budget: [0.013176771575162505, 0.06579071195250208, 0.04612645771885404, 0.07613741353313941]
+11-24 05:35:55 - INFO - Training average loss: 0.868
+11-24 05:35:56 - INFO - Testing accuracy: 74.50%, loss: 0.894
+11-24 05:35:57 - INFO - Attack accuracy: 2.76%
+11-24 05:35:57 - INFO - ----- The recover process end -----
+11-24 05:35:57 - INFO - Total time cost: 45.022008657455444s
+11-24 05:35:57 - DEBUG - Main Accuracy:[16.89, 35.19, 19.39, 23.62, 33.59, 39.56, 49.46, 58.85, 64.68, 64.08, 64.5, 71.93, 69.27, 73.46, 73.75, 73.43, 74.14, 74.5]
+11-24 05:35:57 - DEBUG - Backdoor Accuracy:[9.4, 0.0, 0.0, 4.76, 0.12, 0.0, 4.4, 12.0, 0.64, 0.08, 8.49, 7.45, 0.97, 2.05, 3.76, 4.48, 3.45, 2.76]
+11-24 05:35:57 - INFO - Recovered grouped global model testing accuracy: 74.50%, loss: 0.894
+11-24 05:35:59 - INFO - Attack accuracy: 2.76%
