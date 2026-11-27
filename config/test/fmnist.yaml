@@ -4,7 +4,7 @@ seed: 41
 FL:
   name: GroupedFedAvg
   rounds: 40
-  recover_rounds: 20
+  recover_rounds: 30
   recover_steps: 2
   num_clients: 10
   # Number of isolated DIARY groups. Set to 1 to use one group.

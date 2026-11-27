@@ -3,7 +3,7 @@ Recover:
   args:
     local_epochs: 2
     select_round_ratio: 0.5
-    select_client_ratio: 0.9
+    select_client_ratio: 0.8
     alpha: 0.2
     beta: 0.2
     gamma: 0.2

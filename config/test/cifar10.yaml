@@ -3,8 +3,8 @@ seed: 41
 # Federated arguments
 FL:
   name: GroupedFedAvg
-  rounds: 100
-  recover_rounds: 60
+  rounds: 150
+  recover_rounds: 100
   recover_steps: 2
   num_clients: 10
   # Number of isolated DIARY groups. Set to 1 to use one group.
